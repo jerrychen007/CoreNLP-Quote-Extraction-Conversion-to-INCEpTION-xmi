@@ -3,5 +3,5 @@ This program is used to process and extract the quote extraction results from St
 </br>
 INCEpTION is a rapid annotation platform available at https://inception-project.github.io. There is no direct way for CoreNLP to generate files in a format INCEpTION can recognize. The indirect method is to convert CoreNLP outputs to brat ann files, then to WebAnno-compatible XMI. </br>
 </br>
-Please install Groovy before converting brat ann files. Tutorial available at https://dkpro.github.io/dkpro-core/pages/groovy-intro/ </br>
+Please install Groovy and DKPro Core before converting brat ann files. Tutorial available at https://dkpro.github.io/dkpro-core/pages/groovy-intro/ </br>
 Please refer to https://gist.github.com/reckart/306b8ffddd30bee1f3afd0468a9ad31d to configure your pipeline.groovy and TypeSystem.xml.
