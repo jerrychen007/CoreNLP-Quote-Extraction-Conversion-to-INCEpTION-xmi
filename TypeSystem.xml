@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+        
+    <types>
+             
+        <typeDescription>
+                        
+            <name>webanno.custom.Quote</name>
+                        
+            <description/>
+                        
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+                        
+            <features>
+                                
+                <featureDescription>
+                                        
+                    <name>value</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                                    
+                </featureDescription>
+                            
+            </features>
+                    
+        </typeDescription>
+                
+        <typeDescription>
+                        
+            <name>webanno.custom.Speaker</name>
+                        
+            <description/>
+                        
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+                        
+            <features>
+                                
+                <featureDescription>
+                                        
+                    <name>Dependent</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>webanno.custom.Quote</rangeTypeName>
+                                    
+                </featureDescription>
+                                
+                <featureDescription>
+                                        
+                    <name>Governor</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>webanno.custom.Quote</rangeTypeName>
+                                    
+                </featureDescription>
+                                
+                <featureDescription>
+                                        
+                    <name>value</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                                    
+                </featureDescription>
+                            
+            </features>
+                    
+        </typeDescription>
+                
+        <typeDescription>
+                        
+            <name>webanno.custom.SpeakerofQuote</name>
+                        
+            <description/>
+                        
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+                        
+            <features>
+                                
+                <featureDescription>
+                                        
+                    <name>value</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                                    
+                </featureDescription>
+                            
+            </features>
+                    
+        </typeDescription>
+            
+    </types>
+    
+</typeSystemDescription>
