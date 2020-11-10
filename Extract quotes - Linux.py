@@ -52,7 +52,8 @@ for file_name in CoreNLP_outputs:
         quote = quote.replace(']', '')
         for item in quote.split(", "):
             items.append(item)
-        items[2: -1] = [''.join(items[2: -1])]
+        print(items)
+        items[2: -1] = [', '.join(items[2: -1])]
         dictionary = dict(item.split('=') for item in items)
         Quote = dictionary['Text']
         speaker = dictionary['Speaker']
