@@ -40,24 +40,27 @@ for file_name in CoreNLP_outputs:
     text = text.read()
 
     n = 1
-    quotes = []
+    e = 1
+    extracted_quotes = []
     brat_format_lines = []
     with open(file_name) as fp:
         for i, line in enumerate(fp):
             if i >= c:
-                quotes.append(line)
-    regex = re.compile(r"(?<=\bCharacterOffsetBegin=)\w+")
-    spl_word = 'Speaker='
-    for quote in quotes:
-        Quote = re.findall('"([^"]*)"', quote)
-        Quote = listToString(Quote)
-        Quote = '"' + Quote + '"'
-        len_Quote = len(Quote)
-        match = regex.search(quote)
-        if match:
-            start_position = match.group()
-            end_position = int(start_position) + len_Quote
-        speaker = quote.partition(spl_word)[2].replace(']\n','').replace(' ','  ')
+                extracted_quotes.append(line)
+
+    for quote in extracted_quotes:
+        items = []
+        quote = quote.replace('[','')
+        quote = quote.replace(']', '')
+        for item in quote.split(", "):
+            items.append(item)
+        items[2: -1] = [''.join(items[2: -1])]
+        dictionary = dict(item.split('=') for item in items)
+        Quote = dictionary['Text']
+        speaker = dictionary['Speaker']
+        speaker = speaker.replace(' ','  ').replace('\n','')
+        start_position = int(dictionary['CharacterOffsetBegin'])
+        end_position = start_position + len(Quote)
         speaker_indexes = list(find_all_in_text(text, speaker))
 
         indexes = [] # Finding the nearest speaker index to the quote
@@ -80,6 +83,11 @@ for file_name in CoreNLP_outputs:
         n = n + 1
         brat_format_lines.append(T)
 
+        if indexes: # Print out the relation between speaker and quote
+            E = "E" + str(e) + '\t' + 'Speaker:T'+ str(n-2) + ' ' + 'Speak:T' + str(n-1)
+            e = e + 1
+            brat_format_lines.append(E)
+
         file_name = os.path.splitext(file_name)[0]
         file_name = os.path.splitext(file_name)[0] + '.ann' # Remove the original file extension
 
@@ -90,5 +98,5 @@ for file_name in CoreNLP_outputs:
 print("Brat annotation files were generated.")
 
 # os.system('cmd /c "groovy pipeline"')
-#
+
 # print("xmi annotations were generated in the xmi outputs folder.")
