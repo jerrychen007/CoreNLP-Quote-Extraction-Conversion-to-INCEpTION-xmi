@@ -48,11 +48,9 @@ for file_name in CoreNLP_outputs:
 
     for quote in extracted_quotes:
         items = []
-        quote = quote.replace('[','')
-        quote = quote.replace(']', '')
+        quote = quote[1:-2]
         for item in quote.split(", "):
             items.append(item)
-        print(items)
         items[2: -1] = [', '.join(items[2: -1])]
         dictionary = dict(item.split('=') for item in items)
         Quote = dictionary['Text']
