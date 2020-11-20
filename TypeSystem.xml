@@ -2,16 +2,28 @@
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
         
     <types>
-             
+ 
         <typeDescription>
                         
-            <name>webanno.custom.Quote</name>
+            <name>webanno.custom.Component</name>
                         
             <description/>
                         
             <supertypeName>uima.tcas.Annotation</supertypeName>
                         
             <features>
+                                
+                <featureDescription>
+                                        
+                    <name>Speak</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                                        
+                    <elementType>webanno.custom.ComponentSpeakLink</elementType>
+                                    
+                </featureDescription>
                                 
                 <featureDescription>
                                         
@@ -29,7 +41,41 @@
                 
         <typeDescription>
                         
-            <name>webanno.custom.Speaker</name>
+            <name>webanno.custom.ComponentSpeakLink</name>
+                        
+            <description/>
+                        
+            <supertypeName>uima.cas.TOP</supertypeName>
+                        
+            <features>
+                                
+                <featureDescription>
+                                        
+                    <name>role</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                                    
+                </featureDescription>
+                                
+                <featureDescription>
+                                        
+                    <name>target</name>
+                                        
+                    <description/>
+                                        
+                    <rangeTypeName>webanno.custom.Component</rangeTypeName>
+                                    
+                </featureDescription>
+                            
+            </features>
+                    
+        </typeDescription>
+                
+        <typeDescription>
+                        
+            <name>webanno.custom.Relation</name>
                         
             <description/>
                         
@@ -43,7 +89,7 @@
                                         
                     <description/>
                                         
-                    <rangeTypeName>webanno.custom.Quote</rangeTypeName>
+                    <rangeTypeName>webanno.custom.Component</rangeTypeName>
                                     
                 </featureDescription>
                                 
@@ -53,33 +99,9 @@
                                         
                     <description/>
                                         
-                    <rangeTypeName>webanno.custom.Quote</rangeTypeName>
+                    <rangeTypeName>webanno.custom.Component</rangeTypeName>
                                     
                 </featureDescription>
-                                
-                <featureDescription>
-                                        
-                    <name>value</name>
-                                        
-                    <description/>
-                                        
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                                    
-                </featureDescription>
-                            
-            </features>
-                    
-        </typeDescription>
-                
-        <typeDescription>
-                        
-            <name>webanno.custom.SpeakerofQuote</name>
-                        
-            <description/>
-                        
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-                        
-            <features>
                                 
                 <featureDescription>
                                         

@@ -5,3 +5,22 @@ INCEpTION is a rapid annotation platform available at [INCEpTION - Welcome](http
 </br>
 Please install Groovy and DKPro Core before converting brat ann files. Tutorial available at [DKPro Core - Intro using Groovy](https://dkpro.github.io/dkpro-core/pages/groovy-intro/) </br>
 Please refer to [Convert brat ann files to WebAnno-compatible XMI](https://gist.github.com/reckart/306b8ffddd30bee1f3afd0468a9ad31d) to configure your pipeline.groovy and TypeSystem.xml.
+
+## Pipeline to process outputs from CoreNLP Quote Extraction
+
+1. Export a random document on INCEpTION and choose UIMA CAS XMI format.
+
+2. Unzip the document and copy the TypeSystem.xml to the same directory of Extract quotes - New.py.
+
+3. Put the CoreNLP .out files and original text files under the same directory of Extract quotes - New.py. 
+
+4. Run Extract quotes - New.py.
+
+5. Open command prompt and run: groovy pipeline. (May need to install Java, [Groovy](http://www.groovy-lang.org/download.html) and [DKPro Core](https://dkpro.github.io/dkpro-core/pages/groovy-intro/))
+
+6. Go into xmi outputs folder and run the Create Relation.py.
+
+7. Upload the generated xmi files to INCEpTION.
+
+You may need to adjust parameters in python programs and groovy.pipeline to match your Layers setting on INCEpTION/WebAnno.
+
