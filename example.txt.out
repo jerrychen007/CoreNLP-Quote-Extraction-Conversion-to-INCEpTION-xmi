@@ -1,0 +1,2874 @@
+Document: ID=Web_71554738.txt (44 sentences, 1091 tokens)
+
+Sentence #1 (16 tokens):
+Nzara ,  Sudan  (CNN)  --  Albert  Abuda  might  never  see  his  children  again.
+
+Tokens:
+[Text=Nzara CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Nzara NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text=( CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=-LRB- Lemma=( NamedEntityTag=O]
+[Text=CNN CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=CNN NamedEntityTag=ORGANIZATION]
+[Text=) CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=-RRB- Lemma=) NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=Albert CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Albert NamedEntityTag=PERSON]
+[Text=Abuda CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=Abuda NamedEntityTag=PERSON]
+[Text=might CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=children CharacterOffsetBegin=66 CharacterOffsetEnd=74 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Nzara-1)
+punct(Nzara-1, ,-2)
+appos(Nzara-1, Sudan-3)
+punct(Nzara-1, (-4)
+dep(Nzara-1, CNN-5)
+punct(Nzara-1, )-6)
+punct(Nzara-1, ---7)
+compound(Abuda-9, Albert-8)
+nsubj(see-12, Abuda-9)
+aux(see-12, might-10)
+advmod(see-12, never-11)
+parataxis(Nzara-1, see-12)
+nmod:poss(children-14, his-13)
+obj(see-12, children-14)
+advmod(see-12, again-15)
+punct(Nzara-1, .-16)
+
+Extracted the following NER entity mentions:
+Nzara	PERSON	PERSON:0.5896408672959839
+Sudan	COUNTRY	LOCATION:0.9986466665265903
+CNN	ORGANIZATION	ORGANIZATION:0.7607540957821682
+Albert  Abuda	PERSON	PERSON:0.9997046092082431
+his	PERSON	-
+
+Sentence #2 (17 tokens):
+Long-haired ,  dirty  men  emerged  from  the  dense  bush  around  his  village  one  day.
+
+Tokens:
+[Text=Long CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=haired CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=JJ Lemma=haired NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=dirty CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=JJ Lemma=dirty NamedEntityTag=O]
+[Text=men CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=NNS Lemma=man NamedEntityTag=O]
+[Text=emerged CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=VBD Lemma=emerge NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=dense CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=JJ Lemma=dense NamedEntityTag=O]
+[Text=bush CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=NN Lemma=bush NamedEntityTag=O]
+[Text=around CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=around NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=village CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NN Lemma=village NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=CD Lemma=one NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t1" type="DURATION" value="P1D">one  day</TIMEX3>]
+[Text=day CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P1D Timex=<TIMEX3 tid="t1" type="DURATION" value="P1D">one  day</TIMEX3>]
+[Text=. CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, emerged-7)
+amod(haired-3, Long-1)
+punct(haired-3, --2)
+advmod(emerged-7, haired-3)
+punct(emerged-7, ,-4)
+amod(men-6, dirty-5)
+nsubj(emerged-7, men-6)
+case(bush-11, from-8)
+det(bush-11, the-9)
+amod(bush-11, dense-10)
+obl:from(emerged-7, bush-11)
+case(village-14, around-12)
+nmod:poss(village-14, his-13)
+nmod:around(bush-11, village-14)
+nummod(day-16, one-15)
+obl:tmod(village-14, day-16)
+punct(emerged-7, .-17)
+
+Extracted the following NER entity mentions:
+one  day	DURATION	DURATION:-1.0
+his	PERSON	-
+
+Sentence #3 (19 tokens):
+They  spoke  a  language  he  did  not  understand ,  fighting  in  a  conflict  equally  as  foreign  and  incomprehensible.
+
+Tokens:
+[Text=They CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=spoke CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=VBD Lemma=speak NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=language CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NN Lemma=language NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=understand CharacterOffsetBegin=217 CharacterOffsetEnd=227 PartOfSpeech=VB Lemma=understand NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=fighting CharacterOffsetBegin=231 CharacterOffsetEnd=239 PartOfSpeech=VBG Lemma=fight NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=conflict CharacterOffsetBegin=248 CharacterOffsetEnd=256 PartOfSpeech=NN Lemma=conflict NamedEntityTag=O]
+[Text=equally CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=RB Lemma=equally NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=foreign CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=JJ Lemma=foreign NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=incomprehensible CharacterOffsetBegin=285 CharacterOffsetEnd=301 PartOfSpeech=NN Lemma=incomprehensible NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, spoke-2)
+nsubj(spoke-2, They-1)
+det(language-4, a-3)
+obj(spoke-2, language-4)
+nsubj(understand-8, he-5)
+aux(understand-8, did-6)
+advmod(understand-8, not-7)
+parataxis(spoke-2, understand-8)
+punct(understand-8, ,-9)
+dep(understand-8, fighting-10)
+case(conflict-13, in-11)
+det(conflict-13, a-12)
+obl:in(fighting-10, conflict-13)
+advmod(foreign-16, equally-14)
+case(foreign-16, as-15)
+nmod:as(conflict-13, foreign-16)
+cc(incomprehensible-18, and-17)
+nmod:as(conflict-13, incomprehensible-18)
+conj:and(foreign-16, incomprehensible-18)
+punct(spoke-2, .-19)
+
+Extracted the following NER entity mentions:
+he	PERSON	-
+
+Sentence #4 (14 tokens):
+They  were  members  of  the  notorious  Lord's  Resistance  Army ,  or  LRA.
+
+Tokens:
+[Text=They CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=310 CharacterOffsetEnd=314 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=members CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=NNS Lemma=member NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=notorious CharacterOffsetBegin=334 CharacterOffsetEnd=343 PartOfSpeech=JJ Lemma=notorious NamedEntityTag=O]
+[Text=Lord CharacterOffsetBegin=345 CharacterOffsetEnd=349 PartOfSpeech=NNP Lemma=Lord NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Resistance CharacterOffsetBegin=353 CharacterOffsetEnd=363 PartOfSpeech=NNP Lemma=Resistance NamedEntityTag=ORGANIZATION]
+[Text=Army CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=NNP Lemma=Army NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, members-3)
+nsubj(members-3, They-1)
+cop(members-3, were-2)
+case(Army-10, of-4)
+det(Lord-7, the-5)
+amod(Lord-7, notorious-6)
+nmod:poss(Army-10, Lord-7)
+case(Lord-7, 's-8)
+compound(Army-10, Resistance-9)
+nmod:of(members-3, Army-10)
+punct(Army-10, ,-11)
+cc(LRA-13, or-12)
+nmod:of(members-3, LRA-13)
+conj:or(Army-10, LRA-13)
+punct(members-3, .-14)
+
+Extracted the following NER entity mentions:
+Resistance  Army	ORGANIZATION	ORGANIZATION:0.9996467941379082
+LRA	ORGANIZATION	ORGANIZATION:0.7701912573771936
+
+Sentence #5 (10 tokens):
+They  left  with  more  than  the  year's  harvest.
+
+Tokens:
+[Text=They CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=left CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=407 CharacterOffsetEnd=411 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">the  year</TIMEX3>]
+[Text=year CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">the  year</TIMEX3>]
+[Text='s CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=harvest CharacterOffsetBegin=426 CharacterOffsetEnd=433 PartOfSpeech=NN Lemma=harvest NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, left-2)
+nsubj(left-2, They-1)
+case(harvest-9, with-3)
+advmod(harvest-9, more-4)
+fixed(more-4, than-5)
+det(year-7, the-6)
+nmod:poss(harvest-9, year-7)
+case(year-7, 's-8)
+obl:with(left-2, harvest-9)
+punct(left-2, .-10)
+
+Extracted the following NER entity mentions:
+the  year	DATE	DATE:-1.0
+
+Sentence #6 (27 tokens):
+His  son  is  now  likely  training  as  a  ruthless  guerrilla  warrior ,  and  his  13-year  old  daughter  might  be  forced  into  commanders'  harems.
+
+Tokens:
+[Text=His CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t3" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=likely CharacterOffsetBegin=455 CharacterOffsetEnd=461 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=training CharacterOffsetBegin=463 CharacterOffsetEnd=471 PartOfSpeech=NN Lemma=training NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=ruthless CharacterOffsetBegin=480 CharacterOffsetEnd=488 PartOfSpeech=JJ Lemma=ruthless NamedEntityTag=O]
+[Text=guerrilla CharacterOffsetBegin=490 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=guerrilla NamedEntityTag=O]
+[Text=warrior CharacterOffsetBegin=501 CharacterOffsetEnd=508 PartOfSpeech=NN Lemma=warrior NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=13 CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=CD Lemma=13 NamedEntityTag=DURATION NormalizedNamedEntityTag=P13Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P13Y">13-year</TIMEX3>]
+[Text=- CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=HYPH Lemma=- NamedEntityTag=DURATION NormalizedNamedEntityTag=P13Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P13Y">13-year</TIMEX3>]
+[Text=year CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P13Y Timex=<TIMEX3 tid="t4" type="DURATION" value="P13Y">13-year</TIMEX3>]
+[Text=old CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=JJ Lemma=old NamedEntityTag=O]
+[Text=daughter CharacterOffsetBegin=536 CharacterOffsetEnd=544 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O]
+[Text=might CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=forced CharacterOffsetBegin=557 CharacterOffsetEnd=563 PartOfSpeech=VBN Lemma=force NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=commanders CharacterOffsetBegin=571 CharacterOffsetEnd=581 PartOfSpeech=NNS Lemma=commander NamedEntityTag=O]
+[Text=' CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=harems CharacterOffsetBegin=584 CharacterOffsetEnd=590 PartOfSpeech=NNS Lemma=harem NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, training-6)
+nmod:poss(son-2, His-1)
+nsubj(training-6, son-2)
+cop(training-6, is-3)
+advmod(training-6, now-4)
+amod(training-6, likely-5)
+case(warrior-11, as-7)
+det(warrior-11, a-8)
+amod(warrior-11, ruthless-9)
+compound(warrior-11, guerrilla-10)
+nmod:as(training-6, warrior-11)
+punct(training-6, ,-12)
+cc(daughter-19, and-13)
+nmod:poss(daughter-19, his-14)
+nummod(year-17, 13-15)
+punct(year-17, --16)
+obl:npmod(old-18, year-17)
+amod(daughter-19, old-18)
+conj:and(training-6, daughter-19)
+aux(forced-22, might-20)
+aux:pass(forced-22, be-21)
+dep(training-6, forced-22)
+case(harems-26, into-23)
+nmod:poss(harems-26, commanders-24)
+case(commanders-24, '-25)
+obl:into(forced-22, harems-26)
+punct(training-6, .-27)
+
+Extracted the following NER entity mentions:
+now	DATE	DATE:-1.0
+13-year	DURATION	DURATION:-1.0
+His	PERSON	-
+his	PERSON	-
+
+Sentence #7 (30 tokens):
+Meanwhile ,  Abuda  wastes  away  in  a  makeshift  camp  with  others  telling  similar  tales  and  living  on  the  generosity  of  nearby  villagers  who  sometimes  provide  cassava  leaves  to  boil.
+
+Tokens:
+[Text=Meanwhile CharacterOffsetBegin=593 CharacterOffsetEnd=602 PartOfSpeech=RB Lemma=meanwhile NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Abuda CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=NNP Lemma=Abuda NamedEntityTag=PERSON]
+[Text=wastes CharacterOffsetBegin=613 CharacterOffsetEnd=619 PartOfSpeech=VBZ Lemma=waste NamedEntityTag=O]
+[Text=away CharacterOffsetBegin=621 CharacterOffsetEnd=625 PartOfSpeech=RB Lemma=away NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=makeshift CharacterOffsetBegin=634 CharacterOffsetEnd=643 PartOfSpeech=JJ Lemma=makeshift NamedEntityTag=O]
+[Text=camp CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=NN Lemma=camp NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=others CharacterOffsetBegin=657 CharacterOffsetEnd=663 PartOfSpeech=NNS Lemma=other NamedEntityTag=O]
+[Text=telling CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=VBG Lemma=tell NamedEntityTag=O]
+[Text=similar CharacterOffsetBegin=674 CharacterOffsetEnd=681 PartOfSpeech=JJ Lemma=similar NamedEntityTag=O]
+[Text=tales CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NNS Lemma=tale NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=living CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=VBG Lemma=live NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=707 CharacterOffsetEnd=710 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=generosity CharacterOffsetBegin=712 CharacterOffsetEnd=722 PartOfSpeech=NN Lemma=generosity NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=nearby CharacterOffsetBegin=728 CharacterOffsetEnd=734 PartOfSpeech=JJ Lemma=nearby NamedEntityTag=O]
+[Text=villagers CharacterOffsetBegin=736 CharacterOffsetEnd=745 PartOfSpeech=NNS Lemma=villager NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=747 CharacterOffsetEnd=750 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=sometimes CharacterOffsetBegin=752 CharacterOffsetEnd=761 PartOfSpeech=RB Lemma=sometimes NamedEntityTag=O]
+[Text=provide CharacterOffsetBegin=763 CharacterOffsetEnd=770 PartOfSpeech=VBP Lemma=provide NamedEntityTag=O]
+[Text=cassava CharacterOffsetBegin=772 CharacterOffsetEnd=779 PartOfSpeech=NN Lemma=cassava NamedEntityTag=O]
+[Text=leaves CharacterOffsetBegin=781 CharacterOffsetEnd=787 PartOfSpeech=NNS Lemma=leaf NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=boil CharacterOffsetBegin=793 CharacterOffsetEnd=797 PartOfSpeech=VB Lemma=boil NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, wastes-4)
+advmod(wastes-4, Meanwhile-1)
+punct(wastes-4, ,-2)
+nsubj(wastes-4, Abuda-3)
+advmod(wastes-4, away-5)
+case(camp-9, in-6)
+det(camp-9, a-7)
+amod(camp-9, makeshift-8)
+obl:in(wastes-4, camp-9)
+case(others-11, with-10)
+obl:with(wastes-4, others-11)
+dep(others-11, telling-12)
+amod(tales-14, similar-13)
+obj(telling-12, tales-14)
+cc(living-16, and-15)
+dep(others-11, living-16)
+conj:and(telling-12, living-16)
+case(generosity-19, on-17)
+det(generosity-19, the-18)
+obl:on(living-16, generosity-19)
+case(villagers-22, of-20)
+amod(villagers-22, nearby-21)
+nmod:of(generosity-19, villagers-22)
+obj(provide-25, villagers-22)
+nsubj:xsubj(boil-29, villagers-22)
+ref(villagers-22, who-23)
+nsubj(provide-25, sometimes-24)
+acl:relcl(villagers-22, provide-25)
+compound(leaves-27, cassava-26)
+obj(provide-25, leaves-27)
+nsubj:xsubj(boil-29, leaves-27)
+mark(boil-29, to-28)
+xcomp(provide-25, boil-29)
+punct(wastes-4, .-30)
+
+Extracted the following NER entity mentions:
+Abuda	PERSON	PERSON:0.8105550632572621
+
+Sentence #8 (13 tokens):
+"Since  I  arrived  here ,  life  has  become  miserable  to  me.
+
+Tokens:
+[Text=" CharacterOffsetBegin=800 CharacterOffsetEnd=801 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=Since CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=808 CharacterOffsetEnd=809 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=arrived CharacterOffsetBegin=811 CharacterOffsetEnd=818 PartOfSpeech=VBD Lemma=arrive NamedEntityTag=O]
+[Text=here CharacterOffsetBegin=820 CharacterOffsetEnd=824 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=825 CharacterOffsetEnd=826 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=828 CharacterOffsetEnd=832 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=834 CharacterOffsetEnd=837 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=become CharacterOffsetBegin=839 CharacterOffsetEnd=845 PartOfSpeech=VBN Lemma=become NamedEntityTag=O]
+[Text=miserable CharacterOffsetBegin=847 CharacterOffsetEnd=856 PartOfSpeech=JJ Lemma=miserable NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=862 CharacterOffsetEnd=864 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=864 CharacterOffsetEnd=865 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, become-9)
+punct(become-9, "-1)
+mark(arrived-4, Since-2)
+nsubj(arrived-4, I-3)
+advcl:since(become-9, arrived-4)
+advmod(arrived-4, here-5)
+punct(become-9, ,-6)
+nsubj(become-9, life-7)
+aux(become-9, has-8)
+xcomp(become-9, miserable-10)
+case(me-12, to-11)
+obl:to(miserable-10, me-12)
+punct(become-9, .-13)
+
+Extracted the following NER entity mentions:
+
+Sentence #9 (39 tokens):
+As  you  can  see ,  my  body  keeps  shrinking  because  there  is  no  proper  food ,"  he  said  in  the  town  of  Nzara  in  Southern  Sudan ,  where  he  and  the  rest  of  his  community  have  fled.
+
+Tokens:
+[Text=As CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=871 CharacterOffsetEnd=874 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=876 CharacterOffsetEnd=879 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=881 CharacterOffsetEnd=884 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=885 CharacterOffsetEnd=886 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=my CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=body CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=NN Lemma=body NamedEntityTag=O]
+[Text=keeps CharacterOffsetBegin=898 CharacterOffsetEnd=903 PartOfSpeech=VBZ Lemma=keep NamedEntityTag=O]
+[Text=shrinking CharacterOffsetBegin=905 CharacterOffsetEnd=914 PartOfSpeech=VBG Lemma=shrink NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=916 CharacterOffsetEnd=923 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=925 CharacterOffsetEnd=930 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=932 CharacterOffsetEnd=934 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=936 CharacterOffsetEnd=938 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=proper CharacterOffsetBegin=940 CharacterOffsetEnd=946 PartOfSpeech=JJ Lemma=proper NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=948 CharacterOffsetEnd=952 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=954 CharacterOffsetEnd=955 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=957 CharacterOffsetEnd=959 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=961 CharacterOffsetEnd=965 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=967 CharacterOffsetEnd=969 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=971 CharacterOffsetEnd=974 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=town CharacterOffsetBegin=976 CharacterOffsetEnd=980 PartOfSpeech=NN Lemma=town NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=982 CharacterOffsetEnd=984 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Nzara CharacterOffsetBegin=986 CharacterOffsetEnd=991 PartOfSpeech=NNP Lemma=Nzara NamedEntityTag=LOCATION]
+[Text=in CharacterOffsetBegin=993 CharacterOffsetEnd=995 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=997 CharacterOffsetEnd=1005 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=LOCATION]
+[Text=Sudan CharacterOffsetBegin=1007 CharacterOffsetEnd=1012 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text=, CharacterOffsetBegin=1013 CharacterOffsetEnd=1014 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=1023 CharacterOffsetEnd=1025 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1027 CharacterOffsetEnd=1030 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1032 CharacterOffsetEnd=1035 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=1037 CharacterOffsetEnd=1041 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1043 CharacterOffsetEnd=1045 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=1047 CharacterOffsetEnd=1050 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=community CharacterOffsetBegin=1052 CharacterOffsetEnd=1061 PartOfSpeech=NN Lemma=community NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=1063 CharacterOffsetEnd=1067 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=fled CharacterOffsetBegin=1069 CharacterOffsetEnd=1073 PartOfSpeech=VBN Lemma=flee NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1073 CharacterOffsetEnd=1074 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-19)
+mark(see-4, As-1)
+nsubj(see-4, you-2)
+aux(see-4, can-3)
+advcl:as(keeps-8, see-4)
+punct(keeps-8, ,-5)
+nmod:poss(body-7, my-6)
+nsubj(keeps-8, body-7)
+ccomp(said-19, keeps-8)
+obj(keeps-8, shrinking-9)
+mark(is-12, because-10)
+expl(is-12, there-11)
+advcl:because(keeps-8, is-12)
+det(food-15, no-13)
+amod(food-15, proper-14)
+nsubj(is-12, food-15)
+punct(said-19, ,-16)
+punct(said-19, "-17)
+nsubj(said-19, he-18)
+case(town-22, in-20)
+det(town-22, the-21)
+obl:in(said-19, town-22)
+case(Nzara-24, of-23)
+nmod:of(town-22, Nzara-24)
+case(Sudan-27, in-25)
+compound(Sudan-27, Southern-26)
+nmod:in(town-22, Sudan-27)
+punct(town-22, ,-28)
+advmod(fled-38, where-29)
+nsubj(fled-38, he-30)
+cc(rest-33, and-31)
+det(rest-33, the-32)
+conj:and(he-30, rest-33)
+nsubj(fled-38, rest-33)
+case(community-36, of-34)
+nmod:poss(community-36, his-35)
+nmod:of(rest-33, community-36)
+aux(fled-38, have-37)
+acl:relcl(town-22, fled-38)
+punct(said-19, .-39)
+
+Extracted the following NER entity mentions:
+Nzara	LOCATION	LOCATION:0.9962474527462896
+Southern	LOCATION	LOCATION:0.8622842458557484
+Sudan	COUNTRY	LOCATION:0.9915275896012757
+he	PERSON	-
+he	PERSON	-
+his	PERSON	-
+
+Sentence #10 (34 tokens):
+The  LRA ,  which  follows  the  self-proclaimed  spiritual  powers  of  leader  Joseph  Kony ,  arose  as  a  rebel  movement  in  the  late  1980s  among  the  Acholi  people  of  marginalized  northern  Uganda.
+
+Tokens:
+[Text=The CharacterOffsetBegin=1076 CharacterOffsetEnd=1079 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=1081 CharacterOffsetEnd=1084 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=1085 CharacterOffsetEnd=1086 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=1088 CharacterOffsetEnd=1093 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=follows CharacterOffsetBegin=1095 CharacterOffsetEnd=1102 PartOfSpeech=VBZ Lemma=follow NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1104 CharacterOffsetEnd=1107 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=self CharacterOffsetBegin=1109 CharacterOffsetEnd=1113 PartOfSpeech=NN Lemma=self NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=1113 CharacterOffsetEnd=1114 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=proclaimed CharacterOffsetBegin=1114 CharacterOffsetEnd=1124 PartOfSpeech=VBN Lemma=proclaim NamedEntityTag=O]
+[Text=spiritual CharacterOffsetBegin=1126 CharacterOffsetEnd=1135 PartOfSpeech=JJ Lemma=spiritual NamedEntityTag=O]
+[Text=powers CharacterOffsetBegin=1137 CharacterOffsetEnd=1143 PartOfSpeech=NNS Lemma=power NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1145 CharacterOffsetEnd=1147 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=leader CharacterOffsetBegin=1149 CharacterOffsetEnd=1155 PartOfSpeech=NN Lemma=leader NamedEntityTag=TITLE]
+[Text=Joseph CharacterOffsetBegin=1157 CharacterOffsetEnd=1163 PartOfSpeech=NNP Lemma=Joseph NamedEntityTag=PERSON]
+[Text=Kony CharacterOffsetBegin=1165 CharacterOffsetEnd=1169 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=1170 CharacterOffsetEnd=1171 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=arose CharacterOffsetBegin=1173 CharacterOffsetEnd=1178 PartOfSpeech=VBD Lemma=arise NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1180 CharacterOffsetEnd=1182 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1184 CharacterOffsetEnd=1185 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=rebel CharacterOffsetBegin=1187 CharacterOffsetEnd=1192 PartOfSpeech=JJ Lemma=rebel NamedEntityTag=O]
+[Text=movement CharacterOffsetBegin=1194 CharacterOffsetEnd=1202 PartOfSpeech=NN Lemma=movement NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1204 CharacterOffsetEnd=1206 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1208 CharacterOffsetEnd=1211 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=late CharacterOffsetBegin=1213 CharacterOffsetEnd=1217 PartOfSpeech=JJ Lemma=late NamedEntityTag=O]
+[Text=1980s CharacterOffsetBegin=1219 CharacterOffsetEnd=1224 PartOfSpeech=NNS Lemma=1980 NamedEntityTag=DATE NormalizedNamedEntityTag=198X Timex=<TIMEX3 tid="t5" type="SET" value="198X">1980s</TIMEX3>]
+[Text=among CharacterOffsetBegin=1226 CharacterOffsetEnd=1231 PartOfSpeech=IN Lemma=among NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1233 CharacterOffsetEnd=1236 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Acholi CharacterOffsetBegin=1238 CharacterOffsetEnd=1244 PartOfSpeech=NNP Lemma=Acholi NamedEntityTag=MISC]
+[Text=people CharacterOffsetBegin=1246 CharacterOffsetEnd=1252 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1254 CharacterOffsetEnd=1256 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=marginalized CharacterOffsetBegin=1258 CharacterOffsetEnd=1270 PartOfSpeech=VBN Lemma=marginalize NamedEntityTag=O]
+[Text=northern CharacterOffsetBegin=1272 CharacterOffsetEnd=1280 PartOfSpeech=JJ Lemma=northern NamedEntityTag=O]
+[Text=Uganda CharacterOffsetBegin=1282 CharacterOffsetEnd=1288 PartOfSpeech=NNP Lemma=Uganda NamedEntityTag=COUNTRY]
+[Text=. CharacterOffsetBegin=1288 CharacterOffsetEnd=1289 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, arose-17)
+det(LRA-2, The-1)
+nsubj(follows-5, LRA-2)
+nsubj(arose-17, LRA-2)
+punct(LRA-2, ,-3)
+ref(LRA-2, which-4)
+acl:relcl(LRA-2, follows-5)
+det(powers-11, the-6)
+obl(proclaimed-9, self-7)
+punct(proclaimed-9, --8)
+amod(powers-11, proclaimed-9)
+amod(powers-11, spiritual-10)
+obj(follows-5, powers-11)
+case(Kony-15, of-12)
+compound(Kony-15, leader-13)
+compound(Kony-15, Joseph-14)
+nmod:of(powers-11, Kony-15)
+punct(LRA-2, ,-16)
+case(movement-21, as-18)
+det(movement-21, a-19)
+amod(movement-21, rebel-20)
+obl:as(arose-17, movement-21)
+case(1980s-25, in-22)
+det(1980s-25, the-23)
+amod(1980s-25, late-24)
+nmod:in(movement-21, 1980s-25)
+case(people-29, among-26)
+det(people-29, the-27)
+compound(people-29, Acholi-28)
+nmod:among(movement-21, people-29)
+case(Uganda-33, of-30)
+amod(Uganda-33, marginalized-31)
+amod(Uganda-33, northern-32)
+nmod:of(people-29, Uganda-33)
+punct(arose-17, .-34)
+
+Extracted the following NER entity mentions:
+LRA	ORGANIZATION	ORGANIZATION:0.9651066855509246
+leader	TITLE	-
+Joseph  Kony	PERSON	PERSON:0.999991606831068
+1980s	DATE	DATE:0.9773899486890785
+Acholi	MISC	MISC:0.9995350522180321
+Uganda	COUNTRY	LOCATION:0.9862414638622458
+
+Sentence #11 (19 tokens):
+But  Kony  and  his  men  are  no  longer  in  Uganda ,  and  little  remains  of  any  group  ideology.
+
+Tokens:
+[Text=But CharacterOffsetBegin=1291 CharacterOffsetEnd=1294 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=1296 CharacterOffsetEnd=1300 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=1302 CharacterOffsetEnd=1305 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=1307 CharacterOffsetEnd=1310 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=men CharacterOffsetBegin=1312 CharacterOffsetEnd=1315 PartOfSpeech=NNS Lemma=man NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=1317 CharacterOffsetEnd=1320 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=1322 CharacterOffsetEnd=1324 PartOfSpeech=RB Lemma=no NamedEntityTag=O]
+[Text=longer CharacterOffsetBegin=1326 CharacterOffsetEnd=1332 PartOfSpeech=RBR Lemma=longer NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1334 CharacterOffsetEnd=1336 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Uganda CharacterOffsetBegin=1338 CharacterOffsetEnd=1344 PartOfSpeech=NNP Lemma=Uganda NamedEntityTag=COUNTRY]
+[Text=, CharacterOffsetBegin=1345 CharacterOffsetEnd=1346 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1348 CharacterOffsetEnd=1351 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=little CharacterOffsetBegin=1353 CharacterOffsetEnd=1359 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=remains CharacterOffsetBegin=1361 CharacterOffsetEnd=1368 PartOfSpeech=NNS Lemma=remains NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1370 CharacterOffsetEnd=1372 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=1379 CharacterOffsetEnd=1384 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=ideology CharacterOffsetBegin=1386 CharacterOffsetEnd=1394 PartOfSpeech=NN Lemma=ideology NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1394 CharacterOffsetEnd=1395 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Uganda-10)
+cc(Uganda-10, But-1)
+nsubj(Uganda-10, Kony-2)
+cc(men-5, and-3)
+nmod:poss(men-5, his-4)
+conj:and(Kony-2, men-5)
+nsubj(Uganda-10, men-5)
+cop(Uganda-10, are-6)
+advmod(longer-8, no-7)
+advmod(Uganda-10, longer-8)
+case(Uganda-10, in-9)
+punct(Uganda-10, ,-11)
+cc(remains-14, and-12)
+amod(remains-14, little-13)
+conj:and(Uganda-10, remains-14)
+case(ideology-18, of-15)
+det(ideology-18, any-16)
+compound(ideology-18, group-17)
+nmod:of(remains-14, ideology-18)
+punct(Uganda-10, .-19)
+
+Extracted the following NER entity mentions:
+Kony	PERSON	PERSON:0.9992166418335949
+Uganda	COUNTRY	LOCATION:0.9998259690779371
+his	PERSON	-
+
+Sentence #12 (44 tokens):
+Instead ,  the  LRA  are  known  for  their  seasoned  survival  skills  and  brutal  tactics  of  terror ,  roaming  within  a  weakly-governed  nexus  where  Democratic  Republic  of  Congo ,  Central  African  Republic ,  and  Sudan's  autonomous  region  of  Southern  Sudan  meet.
+
+Tokens:
+[Text=Instead CharacterOffsetBegin=1397 CharacterOffsetEnd=1404 PartOfSpeech=RB Lemma=instead NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1405 CharacterOffsetEnd=1406 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1408 CharacterOffsetEnd=1411 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=1413 CharacterOffsetEnd=1416 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=are CharacterOffsetBegin=1418 CharacterOffsetEnd=1421 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=1423 CharacterOffsetEnd=1428 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=1430 CharacterOffsetEnd=1433 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=1435 CharacterOffsetEnd=1440 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=seasoned CharacterOffsetBegin=1442 CharacterOffsetEnd=1450 PartOfSpeech=JJ Lemma=seasoned NamedEntityTag=O]
+[Text=survival CharacterOffsetBegin=1452 CharacterOffsetEnd=1460 PartOfSpeech=NN Lemma=survival NamedEntityTag=O]
+[Text=skills CharacterOffsetBegin=1462 CharacterOffsetEnd=1468 PartOfSpeech=NNS Lemma=skill NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1470 CharacterOffsetEnd=1473 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=brutal CharacterOffsetBegin=1475 CharacterOffsetEnd=1481 PartOfSpeech=JJ Lemma=brutal NamedEntityTag=O]
+[Text=tactics CharacterOffsetBegin=1483 CharacterOffsetEnd=1490 PartOfSpeech=NNS Lemma=tactic NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1492 CharacterOffsetEnd=1494 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=terror CharacterOffsetBegin=1496 CharacterOffsetEnd=1502 PartOfSpeech=NN Lemma=terror NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1503 CharacterOffsetEnd=1504 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=roaming CharacterOffsetBegin=1506 CharacterOffsetEnd=1513 PartOfSpeech=VBG Lemma=roam NamedEntityTag=O]
+[Text=within CharacterOffsetBegin=1515 CharacterOffsetEnd=1521 PartOfSpeech=IN Lemma=within NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1523 CharacterOffsetEnd=1524 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=weakly CharacterOffsetBegin=1526 CharacterOffsetEnd=1532 PartOfSpeech=RB Lemma=weakly NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=1532 CharacterOffsetEnd=1533 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=governed CharacterOffsetBegin=1533 CharacterOffsetEnd=1541 PartOfSpeech=VBN Lemma=govern NamedEntityTag=O]
+[Text=nexus CharacterOffsetBegin=1543 CharacterOffsetEnd=1548 PartOfSpeech=NN Lemma=nexus NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=1550 CharacterOffsetEnd=1555 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=Democratic CharacterOffsetBegin=1557 CharacterOffsetEnd=1567 PartOfSpeech=NNP Lemma=Democratic NamedEntityTag=IDEOLOGY]
+[Text=Republic CharacterOffsetBegin=1569 CharacterOffsetEnd=1577 PartOfSpeech=NNP Lemma=Republic NamedEntityTag=LOCATION]
+[Text=of CharacterOffsetBegin=1579 CharacterOffsetEnd=1581 PartOfSpeech=IN Lemma=of NamedEntityTag=LOCATION]
+[Text=Congo CharacterOffsetBegin=1583 CharacterOffsetEnd=1588 PartOfSpeech=NNP Lemma=Congo NamedEntityTag=COUNTRY]
+[Text=, CharacterOffsetBegin=1589 CharacterOffsetEnd=1590 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Central CharacterOffsetBegin=1592 CharacterOffsetEnd=1599 PartOfSpeech=NNP Lemma=Central NamedEntityTag=COUNTRY]
+[Text=African CharacterOffsetBegin=1601 CharacterOffsetEnd=1608 PartOfSpeech=NNP Lemma=African NamedEntityTag=COUNTRY]
+[Text=Republic CharacterOffsetBegin=1610 CharacterOffsetEnd=1618 PartOfSpeech=NNP Lemma=Republic NamedEntityTag=COUNTRY]
+[Text=, CharacterOffsetBegin=1619 CharacterOffsetEnd=1620 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1622 CharacterOffsetEnd=1625 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=1627 CharacterOffsetEnd=1632 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text='s CharacterOffsetBegin=1632 CharacterOffsetEnd=1634 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=autonomous CharacterOffsetBegin=1636 CharacterOffsetEnd=1646 PartOfSpeech=JJ Lemma=autonomous NamedEntityTag=O]
+[Text=region CharacterOffsetBegin=1648 CharacterOffsetEnd=1654 PartOfSpeech=NN Lemma=region NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1656 CharacterOffsetEnd=1658 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=1660 CharacterOffsetEnd=1668 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=1670 CharacterOffsetEnd=1675 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text=meet CharacterOffsetBegin=1677 CharacterOffsetEnd=1681 PartOfSpeech=NN Lemma=meet NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1681 CharacterOffsetEnd=1682 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, known-6)
+advmod(known-6, Instead-1)
+punct(known-6, ,-2)
+det(LRA-4, the-3)
+nsubj:pass(known-6, LRA-4)
+aux:pass(known-6, are-5)
+case(skills-11, for-7)
+nmod:poss(skills-11, their-8)
+amod(skills-11, seasoned-9)
+compound(skills-11, survival-10)
+obl:for(known-6, skills-11)
+cc(tactics-14, and-12)
+amod(tactics-14, brutal-13)
+obl:for(known-6, tactics-14)
+conj:and(skills-11, tactics-14)
+case(terror-16, of-15)
+nmod:of(tactics-14, terror-16)
+punct(known-6, ,-17)
+dep(known-6, roaming-18)
+case(nexus-24, within-19)
+det(nexus-24, a-20)
+advmod(governed-23, weakly-21)
+punct(governed-23, --22)
+amod(nexus-24, governed-23)
+obl:within(roaming-18, nexus-24)
+dep(nexus-24, where-25)
+compound(Republic-27, Democratic-26)
+nmod:poss(region-39, Republic-27)
+case(Congo-29, of-28)
+nmod:of(Republic-27, Congo-29)
+punct(Republic-27, ,-30)
+compound(Republic-33, Central-31)
+compound(Republic-33, African-32)
+conj:and(Republic-27, Republic-33)
+nmod:poss(region-39, Republic-33)
+punct(Republic-27, ,-34)
+cc(Sudan-36, and-35)
+conj:and(Republic-27, Sudan-36)
+nmod:poss(region-39, Sudan-36)
+case(Sudan-36, 's-37)
+amod(region-39, autonomous-38)
+dep(where-25, region-39)
+case(meet-43, of-40)
+compound(Sudan-42, Southern-41)
+compound(meet-43, Sudan-42)
+nmod:of(region-39, meet-43)
+punct(region-39, .-44)
+
+Extracted the following NER entity mentions:
+LRA	ORGANIZATION	ORGANIZATION:0.9822001180359115
+Democratic	IDEOLOGY	LOCATION:0.9813533138195505
+Republic  of	LOCATION	LOCATION:0.9847583505328292
+Congo	COUNTRY	LOCATION:0.9945157703301879
+Central  African  Republic	COUNTRY	LOCATION:0.7338092071326331
+Sudan	COUNTRY	LOCATION:0.999891846178145
+Sudan	COUNTRY	LOCATION:0.7349759079060619
+
+Sentence #13 (38 tokens):
+The  guerrillas  have  been  on  the  run  since  being  scattered  from  their  temporary  base  in  Congolese  territory  by  a  botched  U.S.-backed  December  2008  attack  on  Kony's  position ,  dubbed  "Operation  Lightning  Thunder."
+
+Tokens:
+[Text=The CharacterOffsetBegin=1684 CharacterOffsetEnd=1687 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=guerrillas CharacterOffsetBegin=1689 CharacterOffsetEnd=1699 PartOfSpeech=NNS Lemma=guerrilla NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=1701 CharacterOffsetEnd=1705 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=1707 CharacterOffsetEnd=1711 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=1713 CharacterOffsetEnd=1715 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1717 CharacterOffsetEnd=1720 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=run CharacterOffsetBegin=1722 CharacterOffsetEnd=1725 PartOfSpeech=NN Lemma=run NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=1727 CharacterOffsetEnd=1732 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=being CharacterOffsetBegin=1734 CharacterOffsetEnd=1739 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=scattered CharacterOffsetBegin=1741 CharacterOffsetEnd=1750 PartOfSpeech=VBN Lemma=scatter NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=1752 CharacterOffsetEnd=1756 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=1758 CharacterOffsetEnd=1763 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=temporary CharacterOffsetBegin=1765 CharacterOffsetEnd=1774 PartOfSpeech=JJ Lemma=temporary NamedEntityTag=O]
+[Text=base CharacterOffsetBegin=1776 CharacterOffsetEnd=1780 PartOfSpeech=NN Lemma=base NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1782 CharacterOffsetEnd=1784 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Congolese CharacterOffsetBegin=1786 CharacterOffsetEnd=1795 PartOfSpeech=JJ Lemma=congolese NamedEntityTag=NATIONALITY]
+[Text=territory CharacterOffsetBegin=1797 CharacterOffsetEnd=1806 PartOfSpeech=NN Lemma=territory NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=1808 CharacterOffsetEnd=1810 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1812 CharacterOffsetEnd=1813 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=botched CharacterOffsetBegin=1815 CharacterOffsetEnd=1822 PartOfSpeech=VBN Lemma=botch NamedEntityTag=O]
+[Text=U.S. CharacterOffsetBegin=1824 CharacterOffsetEnd=1828 PartOfSpeech=NNP Lemma=U.S. NamedEntityTag=COUNTRY]
+[Text=- CharacterOffsetBegin=1828 CharacterOffsetEnd=1829 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=backed CharacterOffsetBegin=1829 CharacterOffsetEnd=1835 PartOfSpeech=VBN Lemma=back NamedEntityTag=O]
+[Text=December CharacterOffsetBegin=1837 CharacterOffsetEnd=1845 PartOfSpeech=NNP Lemma=December NamedEntityTag=DATE NormalizedNamedEntityTag=2008-12 Timex=<TIMEX3 tid="t6" type="DATE" value="2008-12">December  2008</TIMEX3>]
+[Text=2008 CharacterOffsetBegin=1847 CharacterOffsetEnd=1851 PartOfSpeech=CD Lemma=2008 NamedEntityTag=DATE NormalizedNamedEntityTag=2008-12 Timex=<TIMEX3 tid="t6" type="DATE" value="2008-12">December  2008</TIMEX3>]
+[Text=attack CharacterOffsetBegin=1853 CharacterOffsetEnd=1859 PartOfSpeech=NN Lemma=attack NamedEntityTag=CAUSE_OF_DEATH]
+[Text=on CharacterOffsetBegin=1861 CharacterOffsetEnd=1863 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=1865 CharacterOffsetEnd=1869 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=1869 CharacterOffsetEnd=1871 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=position CharacterOffsetBegin=1873 CharacterOffsetEnd=1881 PartOfSpeech=NN Lemma=position NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1882 CharacterOffsetEnd=1883 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=dubbed CharacterOffsetBegin=1885 CharacterOffsetEnd=1891 PartOfSpeech=VBN Lemma=dub NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=1893 CharacterOffsetEnd=1894 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=Operation CharacterOffsetBegin=1894 CharacterOffsetEnd=1903 PartOfSpeech=NNP Lemma=Operation NamedEntityTag=O]
+[Text=Lightning CharacterOffsetBegin=1905 CharacterOffsetEnd=1914 PartOfSpeech=NNP Lemma=Lightning NamedEntityTag=CAUSE_OF_DEATH]
+[Text=Thunder CharacterOffsetBegin=1916 CharacterOffsetEnd=1923 PartOfSpeech=NNP Lemma=Thunder NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1923 CharacterOffsetEnd=1924 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=1924 CharacterOffsetEnd=1925 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, run-7)
+det(guerrillas-2, The-1)
+nsubj(run-7, guerrillas-2)
+aux(run-7, have-3)
+cop(run-7, been-4)
+case(run-7, on-5)
+det(run-7, the-6)
+mark(scattered-10, since-8)
+aux:pass(scattered-10, being-9)
+advcl:since(dubbed-32, scattered-10)
+case(base-14, from-11)
+nmod:poss(base-14, their-12)
+amod(base-14, temporary-13)
+obl:from(scattered-10, base-14)
+case(territory-17, in-15)
+amod(territory-17, Congolese-16)
+obl:in(scattered-10, territory-17)
+case(attack-26, by-18)
+det(attack-26, a-19)
+amod(attack-26, botched-20)
+obl(backed-23, U.S.-21)
+punct(backed-23, --22)
+amod(attack-26, backed-23)
+compound(attack-26, December-24)
+nummod(December-24, 2008-25)
+obl:agent(scattered-10, attack-26)
+case(position-30, on-27)
+nmod:poss(position-30, Kony-28)
+case(Kony-28, 's-29)
+nmod:on(attack-26, position-30)
+punct(dubbed-32, ,-31)
+dep(run-7, dubbed-32)
+punct(dubbed-32, "-33)
+compound(Thunder-36, Operation-34)
+compound(Thunder-36, Lightning-35)
+obj(dubbed-32, Thunder-36)
+punct(run-7, .-37)
+punct(run-7, "-38)
+
+Extracted the following NER entity mentions:
+Congolese	NATIONALITY	MISC:0.9994323434122722
+U.S.	COUNTRY	LOCATION:0.9990591257569702
+December  2008	DATE	DATE:0.9340723235171837
+attack	CAUSE_OF_DEATH	-
+Kony	PERSON	PERSON:0.9982207027445335
+Lightning	CAUSE_OF_DEATH	-
+
+Sentence #14 (18 tokens):
+Although  forced  to  adjust  to  life  on  the  run ,  little  else  about  its  tactics  have  changed.
+
+Tokens:
+[Text=Although CharacterOffsetBegin=1927 CharacterOffsetEnd=1935 PartOfSpeech=IN Lemma=although NamedEntityTag=O]
+[Text=forced CharacterOffsetBegin=1937 CharacterOffsetEnd=1943 PartOfSpeech=VBN Lemma=force NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1945 CharacterOffsetEnd=1947 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=adjust CharacterOffsetBegin=1949 CharacterOffsetEnd=1955 PartOfSpeech=VB Lemma=adjust NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1957 CharacterOffsetEnd=1959 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=1961 CharacterOffsetEnd=1965 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=1967 CharacterOffsetEnd=1969 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1971 CharacterOffsetEnd=1974 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=run CharacterOffsetBegin=1976 CharacterOffsetEnd=1979 PartOfSpeech=NN Lemma=run NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1980 CharacterOffsetEnd=1981 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=little CharacterOffsetBegin=1983 CharacterOffsetEnd=1989 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=else CharacterOffsetBegin=1991 CharacterOffsetEnd=1995 PartOfSpeech=JJ Lemma=else NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=1997 CharacterOffsetEnd=2002 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=2004 CharacterOffsetEnd=2007 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=tactics CharacterOffsetBegin=2009 CharacterOffsetEnd=2016 PartOfSpeech=NNS Lemma=tactic NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=2018 CharacterOffsetEnd=2022 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=changed CharacterOffsetBegin=2024 CharacterOffsetEnd=2031 PartOfSpeech=VBN Lemma=change NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2031 CharacterOffsetEnd=2032 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, changed-17)
+mark(adjust-4, Although-1)
+nsubj(adjust-4, forced-2)
+mark(adjust-4, to-3)
+advcl:although(changed-17, adjust-4)
+case(life-6, to-5)
+obl:to(adjust-4, life-6)
+case(run-9, on-7)
+det(run-9, the-8)
+obl:on(adjust-4, run-9)
+punct(changed-17, ,-10)
+nsubj(changed-17, little-11)
+amod(little-11, else-12)
+case(tactics-15, about-13)
+nmod:poss(tactics-15, its-14)
+nmod:about(little-11, tactics-15)
+aux(changed-17, have-16)
+punct(changed-17, .-18)
+
+Extracted the following NER entity mentions:
+
+Sentence #15 (33 tokens):
+Known  for  hacking  off  the  lips  or  ears  of  victims ,  the  LRA  kills  without  remorse ,  leaving  behind  a  scattered  trail  of  missing  children ,  looted  villages ,  and  burned  huts.
+
+Tokens:
+[Text=Known CharacterOffsetBegin=2034 CharacterOffsetEnd=2039 PartOfSpeech=JJ Lemma=known NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=2041 CharacterOffsetEnd=2044 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=hacking CharacterOffsetBegin=2046 CharacterOffsetEnd=2053 PartOfSpeech=VBG Lemma=hack NamedEntityTag=O]
+[Text=off CharacterOffsetBegin=2055 CharacterOffsetEnd=2058 PartOfSpeech=RP Lemma=off NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2060 CharacterOffsetEnd=2063 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=lips CharacterOffsetBegin=2065 CharacterOffsetEnd=2069 PartOfSpeech=NNS Lemma=lip NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=2071 CharacterOffsetEnd=2073 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=ears CharacterOffsetBegin=2075 CharacterOffsetEnd=2079 PartOfSpeech=NNS Lemma=ear NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2081 CharacterOffsetEnd=2083 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=victims CharacterOffsetBegin=2085 CharacterOffsetEnd=2092 PartOfSpeech=NNS Lemma=victim NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2093 CharacterOffsetEnd=2094 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2096 CharacterOffsetEnd=2099 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=2101 CharacterOffsetEnd=2104 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=kills CharacterOffsetBegin=2106 CharacterOffsetEnd=2111 PartOfSpeech=VBZ Lemma=kill NamedEntityTag=O]
+[Text=without CharacterOffsetBegin=2113 CharacterOffsetEnd=2120 PartOfSpeech=IN Lemma=without NamedEntityTag=O]
+[Text=remorse CharacterOffsetBegin=2122 CharacterOffsetEnd=2129 PartOfSpeech=NN Lemma=remorse NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2130 CharacterOffsetEnd=2131 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=leaving CharacterOffsetBegin=2133 CharacterOffsetEnd=2140 PartOfSpeech=VBG Lemma=leave NamedEntityTag=O]
+[Text=behind CharacterOffsetBegin=2142 CharacterOffsetEnd=2148 PartOfSpeech=IN Lemma=behind NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=2150 CharacterOffsetEnd=2151 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=scattered CharacterOffsetBegin=2153 CharacterOffsetEnd=2162 PartOfSpeech=VBN Lemma=scatter NamedEntityTag=O]
+[Text=trail CharacterOffsetBegin=2164 CharacterOffsetEnd=2169 PartOfSpeech=NN Lemma=trail NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2171 CharacterOffsetEnd=2173 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=missing CharacterOffsetBegin=2175 CharacterOffsetEnd=2182 PartOfSpeech=VBG Lemma=miss NamedEntityTag=O]
+[Text=children CharacterOffsetBegin=2184 CharacterOffsetEnd=2192 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2193 CharacterOffsetEnd=2194 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=looted CharacterOffsetBegin=2196 CharacterOffsetEnd=2202 PartOfSpeech=VBD Lemma=loot NamedEntityTag=O]
+[Text=villages CharacterOffsetBegin=2204 CharacterOffsetEnd=2212 PartOfSpeech=NNS Lemma=village NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2213 CharacterOffsetEnd=2214 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2216 CharacterOffsetEnd=2219 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=burned CharacterOffsetBegin=2221 CharacterOffsetEnd=2227 PartOfSpeech=VBD Lemma=burn NamedEntityTag=O]
+[Text=huts CharacterOffsetBegin=2229 CharacterOffsetEnd=2233 PartOfSpeech=NNS Lemma=hut NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2233 CharacterOffsetEnd=2234 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Known-1)
+case(hacking-3, for-2)
+obl:for(Known-1, hacking-3)
+dep(lips-6, off-4)
+det(lips-6, the-5)
+obl(hacking-3, lips-6)
+cc(ears-8, or-7)
+obl(hacking-3, ears-8)
+conj:or(lips-6, ears-8)
+case(victims-10, of-9)
+nmod:of(lips-6, victims-10)
+punct(lips-6, ,-11)
+det(LRA-13, the-12)
+nsubj(kills-14, LRA-13)
+nsubj(looted-27, LRA-13)
+nsubj(burned-31, LRA-13)
+dep(lips-6, kills-14)
+case(remorse-16, without-15)
+obl:without(kills-14, remorse-16)
+punct(kills-14, ,-17)
+dep(kills-14, leaving-18)
+case(trail-22, behind-19)
+det(trail-22, a-20)
+amod(trail-22, scattered-21)
+obl:behind(leaving-18, trail-22)
+case(children-25, of-23)
+amod(children-25, missing-24)
+nmod:of(trail-22, children-25)
+punct(kills-14, ,-26)
+dep(lips-6, looted-27)
+conj:and(kills-14, looted-27)
+obj(looted-27, villages-28)
+punct(kills-14, ,-29)
+cc(burned-31, and-30)
+dep(lips-6, burned-31)
+conj:and(kills-14, burned-31)
+obj(burned-31, huts-32)
+punct(Known-1, .-33)
+
+Extracted the following NER entity mentions:
+LRA	ORGANIZATION	ORGANIZATION:0.9234797410795831
+
+Sentence #16 (32 tokens):
+Its  bands  of  bush  fighters  now  appear  and  disappear  across  the  three  troubled  nations ,  traveling  in  elusive  small  groups  and  ravaging  local  communities  for  food ,  clothes ,  and  medicine.
+
+Tokens:
+[Text=Its CharacterOffsetBegin=2236 CharacterOffsetEnd=2239 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=bands CharacterOffsetBegin=2241 CharacterOffsetEnd=2246 PartOfSpeech=NNS Lemma=band NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2248 CharacterOffsetEnd=2250 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=bush CharacterOffsetBegin=2252 CharacterOffsetEnd=2256 PartOfSpeech=NN Lemma=bush NamedEntityTag=O]
+[Text=fighters CharacterOffsetBegin=2258 CharacterOffsetEnd=2266 PartOfSpeech=NNS Lemma=fighter NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=2268 CharacterOffsetEnd=2271 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t7" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=appear CharacterOffsetBegin=2273 CharacterOffsetEnd=2279 PartOfSpeech=VBP Lemma=appear NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2281 CharacterOffsetEnd=2284 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=disappear CharacterOffsetBegin=2286 CharacterOffsetEnd=2295 PartOfSpeech=VBP Lemma=disappear NamedEntityTag=O]
+[Text=across CharacterOffsetBegin=2297 CharacterOffsetEnd=2303 PartOfSpeech=IN Lemma=across NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2305 CharacterOffsetEnd=2308 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=three CharacterOffsetBegin=2310 CharacterOffsetEnd=2315 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=troubled CharacterOffsetBegin=2317 CharacterOffsetEnd=2325 PartOfSpeech=JJ Lemma=troubled NamedEntityTag=O]
+[Text=nations CharacterOffsetBegin=2327 CharacterOffsetEnd=2334 PartOfSpeech=NNS Lemma=nation NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2335 CharacterOffsetEnd=2336 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=traveling CharacterOffsetBegin=2338 CharacterOffsetEnd=2347 PartOfSpeech=VBG Lemma=travel NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=2349 CharacterOffsetEnd=2351 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=elusive CharacterOffsetBegin=2353 CharacterOffsetEnd=2360 PartOfSpeech=JJ Lemma=elusive NamedEntityTag=O]
+[Text=small CharacterOffsetBegin=2362 CharacterOffsetEnd=2367 PartOfSpeech=JJ Lemma=small NamedEntityTag=O]
+[Text=groups CharacterOffsetBegin=2369 CharacterOffsetEnd=2375 PartOfSpeech=NNS Lemma=group NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2377 CharacterOffsetEnd=2380 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=ravaging CharacterOffsetBegin=2382 CharacterOffsetEnd=2390 PartOfSpeech=VBG Lemma=ravage NamedEntityTag=O]
+[Text=local CharacterOffsetBegin=2392 CharacterOffsetEnd=2397 PartOfSpeech=JJ Lemma=local NamedEntityTag=O]
+[Text=communities CharacterOffsetBegin=2399 CharacterOffsetEnd=2410 PartOfSpeech=NNS Lemma=community NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=2412 CharacterOffsetEnd=2415 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=2417 CharacterOffsetEnd=2421 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2422 CharacterOffsetEnd=2423 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=clothes CharacterOffsetBegin=2425 CharacterOffsetEnd=2432 PartOfSpeech=NNS Lemma=clothes NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2433 CharacterOffsetEnd=2434 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2436 CharacterOffsetEnd=2439 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=medicine CharacterOffsetBegin=2441 CharacterOffsetEnd=2449 PartOfSpeech=NN Lemma=medicine NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2449 CharacterOffsetEnd=2450 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, appear-7)
+nmod:poss(bands-2, Its-1)
+nsubj(appear-7, bands-2)
+nsubj(disappear-9, bands-2)
+case(fighters-5, of-3)
+compound(fighters-5, bush-4)
+nmod:of(bands-2, fighters-5)
+advmod(appear-7, now-6)
+cc(disappear-9, and-8)
+conj:and(appear-7, disappear-9)
+case(nations-14, across-10)
+det(nations-14, the-11)
+nummod(nations-14, three-12)
+amod(nations-14, troubled-13)
+obl:across(disappear-9, nations-14)
+punct(disappear-9, ,-15)
+conj:and(appear-7, traveling-16)
+conj:and(disappear-9, traveling-16)
+case(groups-20, in-17)
+amod(groups-20, elusive-18)
+amod(groups-20, small-19)
+obl:in(traveling-16, groups-20)
+cc(ravaging-22, and-21)
+conj:and(appear-7, ravaging-22)
+conj:and(disappear-9, ravaging-22)
+amod(communities-24, local-23)
+obj(ravaging-22, communities-24)
+case(food-26, for-25)
+obl:for(ravaging-22, food-26)
+punct(food-26, ,-27)
+obl:for(ravaging-22, clothes-28)
+conj:and(food-26, clothes-28)
+punct(food-26, ,-29)
+cc(medicine-31, and-30)
+obl:for(ravaging-22, medicine-31)
+conj:and(food-26, medicine-31)
+punct(appear-7, .-32)
+
+Extracted the following NER entity mentions:
+now	DATE	DATE:-1.0
+three	NUMBER	NUMBER:-1.0
+
+Sentence #17 (8 tokens):
+They  also  seek  another  sort  of  booty.
+
+Tokens:
+[Text=They CharacterOffsetBegin=2452 CharacterOffsetEnd=2456 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=2458 CharacterOffsetEnd=2462 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=seek CharacterOffsetBegin=2464 CharacterOffsetEnd=2468 PartOfSpeech=VB Lemma=seek NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=2470 CharacterOffsetEnd=2477 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=sort CharacterOffsetBegin=2479 CharacterOffsetEnd=2483 PartOfSpeech=NN Lemma=sort NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2485 CharacterOffsetEnd=2487 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=booty CharacterOffsetBegin=2489 CharacterOffsetEnd=2494 PartOfSpeech=NN Lemma=booty NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2494 CharacterOffsetEnd=2495 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, seek-3)
+nsubj(seek-3, They-1)
+advmod(seek-3, also-2)
+det(sort-5, another-4)
+obj(seek-3, sort-5)
+case(booty-7, of-6)
+nmod:of(sort-5, booty-7)
+punct(seek-3, .-8)
+
+Extracted the following NER entity mentions:
+
+Sentence #18 (28 tokens):
+No  longer  able  to  recruit  for  an  armed  movement  that  long  ago  lost  a  coherent  goal ,  Kony's  men  must  replenish  the  ranks  through  alternative  means.
+
+Tokens:
+[Text=No CharacterOffsetBegin=2497 CharacterOffsetEnd=2499 PartOfSpeech=RB Lemma=no NamedEntityTag=O]
+[Text=longer CharacterOffsetBegin=2501 CharacterOffsetEnd=2507 PartOfSpeech=RBR Lemma=longer NamedEntityTag=O]
+[Text=able CharacterOffsetBegin=2509 CharacterOffsetEnd=2513 PartOfSpeech=JJ Lemma=able NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2515 CharacterOffsetEnd=2517 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=recruit CharacterOffsetBegin=2519 CharacterOffsetEnd=2526 PartOfSpeech=VB Lemma=recruit NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=2528 CharacterOffsetEnd=2531 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=2533 CharacterOffsetEnd=2535 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=armed CharacterOffsetBegin=2537 CharacterOffsetEnd=2542 PartOfSpeech=JJ Lemma=armed NamedEntityTag=O]
+[Text=movement CharacterOffsetBegin=2544 CharacterOffsetEnd=2552 PartOfSpeech=NN Lemma=movement NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2554 CharacterOffsetEnd=2558 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=2560 CharacterOffsetEnd=2564 PartOfSpeech=RB Lemma=long NamedEntityTag=O]
+[Text=ago CharacterOffsetBegin=2566 CharacterOffsetEnd=2569 PartOfSpeech=RB Lemma=ago NamedEntityTag=O]
+[Text=lost CharacterOffsetBegin=2571 CharacterOffsetEnd=2575 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=2577 CharacterOffsetEnd=2578 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=coherent CharacterOffsetBegin=2580 CharacterOffsetEnd=2588 PartOfSpeech=JJ Lemma=coherent NamedEntityTag=O]
+[Text=goal CharacterOffsetBegin=2590 CharacterOffsetEnd=2594 PartOfSpeech=NN Lemma=goal NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2595 CharacterOffsetEnd=2596 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=2598 CharacterOffsetEnd=2602 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=2602 CharacterOffsetEnd=2604 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=men CharacterOffsetBegin=2606 CharacterOffsetEnd=2609 PartOfSpeech=NNS Lemma=man NamedEntityTag=O]
+[Text=must CharacterOffsetBegin=2611 CharacterOffsetEnd=2615 PartOfSpeech=MD Lemma=must NamedEntityTag=O]
+[Text=replenish CharacterOffsetBegin=2617 CharacterOffsetEnd=2626 PartOfSpeech=VB Lemma=replenish NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2628 CharacterOffsetEnd=2631 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ranks CharacterOffsetBegin=2633 CharacterOffsetEnd=2638 PartOfSpeech=NNS Lemma=rank NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=2640 CharacterOffsetEnd=2647 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=alternative CharacterOffsetBegin=2649 CharacterOffsetEnd=2660 PartOfSpeech=JJ Lemma=alternative NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=2662 CharacterOffsetEnd=2667 PartOfSpeech=NNS Lemma=means NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2667 CharacterOffsetEnd=2668 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, able-3)
+advmod(longer-2, No-1)
+advmod(able-3, longer-2)
+mark(recruit-5, to-4)
+dep(able-3, recruit-5)
+case(movement-9, for-6)
+det(movement-9, an-7)
+amod(movement-9, armed-8)
+obl:for(recruit-5, movement-9)
+nsubj(lost-13, movement-9)
+ref(movement-9, that-10)
+advmod(ago-12, long-11)
+advmod(lost-13, ago-12)
+acl:relcl(movement-9, lost-13)
+det(goal-16, a-14)
+amod(goal-16, coherent-15)
+obj(lost-13, goal-16)
+punct(recruit-5, ,-17)
+nmod:poss(men-20, Kony-18)
+case(Kony-18, 's-19)
+nsubj(replenish-22, men-20)
+aux(replenish-22, must-21)
+parataxis(recruit-5, replenish-22)
+det(ranks-24, the-23)
+obj(replenish-22, ranks-24)
+case(means-27, through-25)
+amod(means-27, alternative-26)
+obl:through(replenish-22, means-27)
+punct(able-3, .-28)
+
+Extracted the following NER entity mentions:
+Kony	PERSON	PERSON:0.9970584193490986
+
+Sentence #19 (32 tokens):
+The  New  York-based  advocacy  group  Human  Rights  Watch  estimates  the  group  has  abducted  700  people  --  a  third  children ,  like  Abuda's  --  in  the  last  18  months.
+
+Tokens:
+[Text=The CharacterOffsetBegin=2670 CharacterOffsetEnd=2673 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=New CharacterOffsetBegin=2675 CharacterOffsetEnd=2678 PartOfSpeech=NNP Lemma=New NamedEntityTag=STATE_OR_PROVINCE]
+[Text=York CharacterOffsetBegin=2680 CharacterOffsetEnd=2684 PartOfSpeech=NNP Lemma=York NamedEntityTag=STATE_OR_PROVINCE]
+[Text=- CharacterOffsetBegin=2684 CharacterOffsetEnd=2685 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=based CharacterOffsetBegin=2685 CharacterOffsetEnd=2690 PartOfSpeech=VBN Lemma=base NamedEntityTag=O]
+[Text=advocacy CharacterOffsetBegin=2692 CharacterOffsetEnd=2700 PartOfSpeech=NN Lemma=advocacy NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=2702 CharacterOffsetEnd=2707 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=Human CharacterOffsetBegin=2709 CharacterOffsetEnd=2714 PartOfSpeech=NNP Lemma=Human NamedEntityTag=ORGANIZATION]
+[Text=Rights CharacterOffsetBegin=2716 CharacterOffsetEnd=2722 PartOfSpeech=NNPS Lemma=Rights NamedEntityTag=ORGANIZATION]
+[Text=Watch CharacterOffsetBegin=2724 CharacterOffsetEnd=2729 PartOfSpeech=NNP Lemma=Watch NamedEntityTag=ORGANIZATION]
+[Text=estimates CharacterOffsetBegin=2731 CharacterOffsetEnd=2740 PartOfSpeech=VBZ Lemma=estimate NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2742 CharacterOffsetEnd=2745 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=2747 CharacterOffsetEnd=2752 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=2754 CharacterOffsetEnd=2757 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=abducted CharacterOffsetBegin=2759 CharacterOffsetEnd=2767 PartOfSpeech=VBN Lemma=abduct NamedEntityTag=O]
+[Text=700 CharacterOffsetBegin=2769 CharacterOffsetEnd=2772 PartOfSpeech=CD Lemma=700 NamedEntityTag=NUMBER NormalizedNamedEntityTag=700.0]
+[Text=people CharacterOffsetBegin=2774 CharacterOffsetEnd=2780 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=2782 CharacterOffsetEnd=2784 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=2786 CharacterOffsetEnd=2787 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=third CharacterOffsetBegin=2789 CharacterOffsetEnd=2794 PartOfSpeech=JJ Lemma=third NamedEntityTag=ORDINAL NormalizedNamedEntityTag=3.0]
+[Text=children CharacterOffsetBegin=2796 CharacterOffsetEnd=2804 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2805 CharacterOffsetEnd=2806 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=2808 CharacterOffsetEnd=2812 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=Abuda CharacterOffsetBegin=2814 CharacterOffsetEnd=2819 PartOfSpeech=NNP Lemma=Abuda NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=2819 CharacterOffsetEnd=2821 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=2823 CharacterOffsetEnd=2825 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=2827 CharacterOffsetEnd=2829 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2831 CharacterOffsetEnd=2834 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P18M Timex=<TIMEX3 beginPoint="t8" endPoint="t0" tid="t9" type="DURATION" value="P18M">the  last  18  months</TIMEX3>]
+[Text=last CharacterOffsetBegin=2836 CharacterOffsetEnd=2840 PartOfSpeech=JJ Lemma=last NamedEntityTag=DATE NormalizedNamedEntityTag=P18M Timex=<TIMEX3 beginPoint="t8" endPoint="t0" tid="t9" type="DURATION" value="P18M">the  last  18  months</TIMEX3>]
+[Text=18 CharacterOffsetBegin=2842 CharacterOffsetEnd=2844 PartOfSpeech=CD Lemma=18 NamedEntityTag=DATE NormalizedNamedEntityTag=P18M Timex=<TIMEX3 beginPoint="t8" endPoint="t0" tid="t9" type="DURATION" value="P18M">the  last  18  months</TIMEX3>]
+[Text=months CharacterOffsetBegin=2846 CharacterOffsetEnd=2852 PartOfSpeech=NNS Lemma=month NamedEntityTag=DATE NormalizedNamedEntityTag=P18M Timex=<TIMEX3 beginPoint="t8" endPoint="t0" tid="t9" type="DURATION" value="P18M">the  last  18  months</TIMEX3>]
+[Text=. CharacterOffsetBegin=2852 CharacterOffsetEnd=2853 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, estimates-11)
+det(Watch-10, The-1)
+compound(York-3, New-2)
+obl(based-5, York-3)
+punct(based-5, --4)
+amod(Watch-10, based-5)
+compound(group-7, advocacy-6)
+compound(Watch-10, group-7)
+compound(Rights-9, Human-8)
+compound(Watch-10, Rights-9)
+nsubj(estimates-11, Watch-10)
+det(group-13, the-12)
+obj(estimates-11, group-13)
+aux(abducted-15, has-14)
+dep(estimates-11, abducted-15)
+nummod(people-17, 700-16)
+obj(abducted-15, people-17)
+punct(people-17, ---18)
+det(children-21, a-19)
+amod(children-21, third-20)
+dep(people-17, children-21)
+punct(children-21, ,-22)
+case(Abuda-24, like-23)
+nmod:like(children-21, Abuda-24)
+case(Abuda-24, 's-25)
+punct(people-17, ---26)
+case(months-31, in-27)
+det(months-31, the-28)
+amod(months-31, last-29)
+nummod(months-31, 18-30)
+obl:in(abducted-15, months-31)
+punct(estimates-11, .-32)
+
+Extracted the following NER entity mentions:
+New  York	STATE_OR_PROVINCE	LOCATION:0.9622823966022768
+Human  Rights  Watch	ORGANIZATION	ORGANIZATION:0.9994813440261994
+700	NUMBER	NUMBER:-1.0
+third	ORDINAL	ORDINAL:-1.0
+Abuda	PERSON	PERSON:0.8164655972186039
+the	DURATION	DURATION:-1.0
+last  18  months	DATE	DATE:0.7128251056254512
+
+Sentence #20 (12 tokens):
+The  group's  victims  are  flooding  the  region  as  hapless  squatters.
+
+Tokens:
+[Text=The CharacterOffsetBegin=2855 CharacterOffsetEnd=2858 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=2860 CharacterOffsetEnd=2865 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=2865 CharacterOffsetEnd=2867 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=victims CharacterOffsetBegin=2869 CharacterOffsetEnd=2876 PartOfSpeech=NNS Lemma=victim NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2878 CharacterOffsetEnd=2881 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=flooding CharacterOffsetBegin=2883 CharacterOffsetEnd=2891 PartOfSpeech=VBG Lemma=flood NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2893 CharacterOffsetEnd=2896 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=region CharacterOffsetBegin=2898 CharacterOffsetEnd=2904 PartOfSpeech=NN Lemma=region NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2906 CharacterOffsetEnd=2908 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=hapless CharacterOffsetBegin=2910 CharacterOffsetEnd=2917 PartOfSpeech=JJ Lemma=hapless NamedEntityTag=O]
+[Text=squatters CharacterOffsetBegin=2919 CharacterOffsetEnd=2928 PartOfSpeech=NNS Lemma=squatter NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2928 CharacterOffsetEnd=2929 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, flooding-6)
+det(group-2, The-1)
+nmod:poss(victims-4, group-2)
+case(group-2, 's-3)
+nsubj(flooding-6, victims-4)
+aux(flooding-6, are-5)
+det(region-8, the-7)
+obj(flooding-6, region-8)
+case(squatters-11, as-9)
+amod(squatters-11, hapless-10)
+obl:as(flooding-6, squatters-11)
+punct(flooding-6, .-12)
+
+Extracted the following NER entity mentions:
+
+Sentence #21 (55 tokens):
+Those  who  cross  the  area's  porous  international  borders  are  fortunate  enough  to  receive  some  help  from  the  United  Nations  as  refugees ,  but  a  loophole  in  international  humanitarian  law  means  that  Abuda  and  the  25 ,000  other  southern  Sudanese  internally  displaced  by  the  LRA  this  year  are  left  mostly  to  fend  for  themselves.
+
+Tokens:
+[Text=Those CharacterOffsetBegin=2931 CharacterOffsetEnd=2936 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=2938 CharacterOffsetEnd=2941 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=cross CharacterOffsetBegin=2943 CharacterOffsetEnd=2948 PartOfSpeech=VBP Lemma=cross NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2950 CharacterOffsetEnd=2953 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=area CharacterOffsetBegin=2955 CharacterOffsetEnd=2959 PartOfSpeech=NN Lemma=area NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=2959 CharacterOffsetEnd=2961 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=porous CharacterOffsetBegin=2963 CharacterOffsetEnd=2969 PartOfSpeech=JJ Lemma=porous NamedEntityTag=O]
+[Text=international CharacterOffsetBegin=2971 CharacterOffsetEnd=2984 PartOfSpeech=JJ Lemma=international NamedEntityTag=O]
+[Text=borders CharacterOffsetBegin=2986 CharacterOffsetEnd=2993 PartOfSpeech=NNS Lemma=border NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2995 CharacterOffsetEnd=2998 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=fortunate CharacterOffsetBegin=3000 CharacterOffsetEnd=3009 PartOfSpeech=JJ Lemma=fortunate NamedEntityTag=O]
+[Text=enough CharacterOffsetBegin=3011 CharacterOffsetEnd=3017 PartOfSpeech=JJ Lemma=enough NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3019 CharacterOffsetEnd=3021 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=receive CharacterOffsetBegin=3023 CharacterOffsetEnd=3030 PartOfSpeech=VB Lemma=receive NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=3032 CharacterOffsetEnd=3036 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=3038 CharacterOffsetEnd=3042 PartOfSpeech=NN Lemma=help NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=3044 CharacterOffsetEnd=3048 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3050 CharacterOffsetEnd=3053 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=United CharacterOffsetBegin=3055 CharacterOffsetEnd=3061 PartOfSpeech=NNP Lemma=United NamedEntityTag=ORGANIZATION]
+[Text=Nations CharacterOffsetBegin=3063 CharacterOffsetEnd=3070 PartOfSpeech=NNP Lemma=Nations NamedEntityTag=ORGANIZATION]
+[Text=as CharacterOffsetBegin=3072 CharacterOffsetEnd=3074 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=refugees CharacterOffsetBegin=3076 CharacterOffsetEnd=3084 PartOfSpeech=NNS Lemma=refugee NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3085 CharacterOffsetEnd=3086 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=3088 CharacterOffsetEnd=3091 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3093 CharacterOffsetEnd=3094 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=loophole CharacterOffsetBegin=3096 CharacterOffsetEnd=3104 PartOfSpeech=NN Lemma=loophole NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3106 CharacterOffsetEnd=3108 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=international CharacterOffsetBegin=3110 CharacterOffsetEnd=3123 PartOfSpeech=JJ Lemma=international NamedEntityTag=O]
+[Text=humanitarian CharacterOffsetBegin=3125 CharacterOffsetEnd=3137 PartOfSpeech=JJ Lemma=humanitarian NamedEntityTag=O]
+[Text=law CharacterOffsetBegin=3139 CharacterOffsetEnd=3142 PartOfSpeech=NN Lemma=law NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=3144 CharacterOffsetEnd=3149 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=3151 CharacterOffsetEnd=3155 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Abuda CharacterOffsetBegin=3157 CharacterOffsetEnd=3162 PartOfSpeech=NNP Lemma=Abuda NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=3164 CharacterOffsetEnd=3167 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3169 CharacterOffsetEnd=3172 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=3174 CharacterOffsetEnd=3176 PartOfSpeech=CD Lemma=25 NamedEntityTag=NUMBER NormalizedNamedEntityTag=25.0]
+[Text=,000 CharacterOffsetBegin=3177 CharacterOffsetEnd=3181 PartOfSpeech=CD Lemma=,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>=0.0]
+[Text=other CharacterOffsetBegin=3183 CharacterOffsetEnd=3188 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=southern CharacterOffsetBegin=3190 CharacterOffsetEnd=3198 PartOfSpeech=JJ Lemma=southern NamedEntityTag=O]
+[Text=Sudanese CharacterOffsetBegin=3200 CharacterOffsetEnd=3208 PartOfSpeech=JJ Lemma=sudanese NamedEntityTag=NATIONALITY]
+[Text=internally CharacterOffsetBegin=3210 CharacterOffsetEnd=3220 PartOfSpeech=RB Lemma=internally NamedEntityTag=O]
+[Text=displaced CharacterOffsetBegin=3222 CharacterOffsetEnd=3231 PartOfSpeech=VBN Lemma=displace NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=3233 CharacterOffsetEnd=3235 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3237 CharacterOffsetEnd=3240 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=3242 CharacterOffsetEnd=3245 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=this CharacterOffsetBegin=3247 CharacterOffsetEnd=3251 PartOfSpeech=DT Lemma=this NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">this  year</TIMEX3>]
+[Text=year CharacterOffsetBegin=3253 CharacterOffsetEnd=3257 PartOfSpeech=NN Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1Y Timex=<TIMEX3 alt_value="THIS P1Y" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">this  year</TIMEX3>]
+[Text=are CharacterOffsetBegin=3259 CharacterOffsetEnd=3262 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=left CharacterOffsetBegin=3264 CharacterOffsetEnd=3268 PartOfSpeech=VBN Lemma=leave NamedEntityTag=O]
+[Text=mostly CharacterOffsetBegin=3270 CharacterOffsetEnd=3276 PartOfSpeech=RB Lemma=mostly NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3278 CharacterOffsetEnd=3280 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=fend CharacterOffsetBegin=3282 CharacterOffsetEnd=3286 PartOfSpeech=VB Lemma=fend NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=3288 CharacterOffsetEnd=3291 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=themselves CharacterOffsetBegin=3293 CharacterOffsetEnd=3303 PartOfSpeech=PRP Lemma=themselves NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3303 CharacterOffsetEnd=3304 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, fortunate-11)
+nsubj(cross-3, Those-1)
+nsubj(fortunate-11, Those-1)
+ref(Those-1, who-2)
+acl:relcl(Those-1, cross-3)
+det(area-5, the-4)
+nmod:poss(borders-9, area-5)
+case(area-5, 's-6)
+amod(borders-9, porous-7)
+amod(borders-9, international-8)
+obj(cross-3, borders-9)
+cop(fortunate-11, are-10)
+dep(fortunate-11, enough-12)
+mark(receive-14, to-13)
+dep(enough-12, receive-14)
+det(help-16, some-15)
+obj(receive-14, help-16)
+case(Nations-20, from-17)
+det(Nations-20, the-18)
+compound(Nations-20, United-19)
+nmod:from(help-16, Nations-20)
+case(refugees-22, as-21)
+obl:as(receive-14, refugees-22)
+punct(fortunate-11, ,-23)
+cc(means-31, but-24)
+det(loophole-26, a-25)
+nsubj(means-31, loophole-26)
+case(law-30, in-27)
+amod(law-30, international-28)
+amod(law-30, humanitarian-29)
+nmod:in(loophole-26, law-30)
+conj:but(fortunate-11, means-31)
+obj(means-31, that-32)
+dep(that-32, Abuda-33)
+cc(left-49, and-34)
+det(left-49, the-35)
+compound(,000-37, 25-36)
+dep(left-49, ,000-37)
+advmod(left-49, other-38)
+amod(Sudanese-40, southern-39)
+nsubj:pass(left-49, Sudanese-40)
+advmod(displaced-42, internally-41)
+acl(Sudanese-40, displaced-42)
+case(LRA-45, by-43)
+det(LRA-45, the-44)
+obl:by(displaced-42, LRA-45)
+det(year-47, this-46)
+obl:tmod(displaced-42, year-47)
+aux:pass(left-49, are-48)
+dep(that-32, left-49)
+conj:and(Abuda-33, left-49)
+advmod(fend-52, mostly-50)
+mark(fend-52, to-51)
+acl:to(left-49, fend-52)
+case(themselves-54, for-53)
+obl:for(fend-52, themselves-54)
+punct(fortunate-11, .-55)
+
+Extracted the following NER entity mentions:
+United  Nations	ORGANIZATION	ORGANIZATION:0.9626047880392277
+Abuda	PERSON	PERSON:0.5730892590081534
+25	NUMBER	NUMBER:-1.0
+,000	NUMBER	NUMBER:-1.0
+Sudanese	NATIONALITY	MISC:0.9999920341657659
+LRA	ORGANIZATION	ORGANIZATION:0.9473378509150843
+this  year	DATE	DATE:-1.0
+
+Sentence #22 (11 tokens):
+Any  end  to  the  conflict  appears  as  distant  as  ever.
+
+Tokens:
+[Text=Any CharacterOffsetBegin=3306 CharacterOffsetEnd=3309 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=3311 CharacterOffsetEnd=3314 PartOfSpeech=NN Lemma=end NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3316 CharacterOffsetEnd=3318 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3320 CharacterOffsetEnd=3323 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=conflict CharacterOffsetBegin=3325 CharacterOffsetEnd=3333 PartOfSpeech=NN Lemma=conflict NamedEntityTag=O]
+[Text=appears CharacterOffsetBegin=3335 CharacterOffsetEnd=3342 PartOfSpeech=VBZ Lemma=appear NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=3344 CharacterOffsetEnd=3346 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=distant CharacterOffsetBegin=3348 CharacterOffsetEnd=3355 PartOfSpeech=JJ Lemma=distant NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=3357 CharacterOffsetEnd=3359 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=ever CharacterOffsetBegin=3361 CharacterOffsetEnd=3365 PartOfSpeech=RB Lemma=ever NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3365 CharacterOffsetEnd=3366 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, appears-6)
+det(end-2, Any-1)
+nsubj(appears-6, end-2)
+case(conflict-5, to-3)
+det(conflict-5, the-4)
+nmod:to(end-2, conflict-5)
+case(distant-8, as-7)
+advcl:as(appears-6, distant-8)
+case(ever-10, as-9)
+advcl:as(distant-8, ever-10)
+punct(appears-6, .-11)
+
+Extracted the following NER entity mentions:
+
+Sentence #23 (22 tokens):
+Internationally-sponsored  peace  talks  collapsed  in  2008 ,  and  Kony  appears  wary  of  taking  his  chances  with  terms  of  surrender.
+
+Tokens:
+[Text=Internationally CharacterOffsetBegin=3368 CharacterOffsetEnd=3383 PartOfSpeech=RB Lemma=internationally NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=3383 CharacterOffsetEnd=3384 PartOfSpeech=HYPH Lemma=- NamedEntityTag=MISC]
+[Text=sponsored CharacterOffsetBegin=3384 CharacterOffsetEnd=3393 PartOfSpeech=VBN Lemma=sponsor NamedEntityTag=MISC]
+[Text=peace CharacterOffsetBegin=3395 CharacterOffsetEnd=3400 PartOfSpeech=NN Lemma=peace NamedEntityTag=O]
+[Text=talks CharacterOffsetBegin=3402 CharacterOffsetEnd=3407 PartOfSpeech=NNS Lemma=talk NamedEntityTag=O]
+[Text=collapsed CharacterOffsetBegin=3409 CharacterOffsetEnd=3418 PartOfSpeech=VBD Lemma=collapse NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3420 CharacterOffsetEnd=3422 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2008 CharacterOffsetBegin=3424 CharacterOffsetEnd=3428 PartOfSpeech=CD Lemma=2008 NamedEntityTag=DATE NormalizedNamedEntityTag=2008 Timex=<TIMEX3 tid="t10" type="DATE" value="2008">2008</TIMEX3>]
+[Text=, CharacterOffsetBegin=3429 CharacterOffsetEnd=3430 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3432 CharacterOffsetEnd=3435 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=3437 CharacterOffsetEnd=3441 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text=appears CharacterOffsetBegin=3443 CharacterOffsetEnd=3450 PartOfSpeech=VBZ Lemma=appear NamedEntityTag=O]
+[Text=wary CharacterOffsetBegin=3452 CharacterOffsetEnd=3456 PartOfSpeech=JJ Lemma=wary NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3458 CharacterOffsetEnd=3460 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=taking CharacterOffsetBegin=3462 CharacterOffsetEnd=3468 PartOfSpeech=VBG Lemma=take NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=3470 CharacterOffsetEnd=3473 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=chances CharacterOffsetBegin=3475 CharacterOffsetEnd=3482 PartOfSpeech=NNS Lemma=chance NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=3484 CharacterOffsetEnd=3488 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=terms CharacterOffsetBegin=3490 CharacterOffsetEnd=3495 PartOfSpeech=NNS Lemma=term NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3497 CharacterOffsetEnd=3499 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=surrender CharacterOffsetBegin=3501 CharacterOffsetEnd=3510 PartOfSpeech=NN Lemma=surrender NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3510 CharacterOffsetEnd=3511 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, collapsed-6)
+advmod(sponsored-3, Internationally-1)
+punct(sponsored-3, --2)
+amod(talks-5, sponsored-3)
+compound(talks-5, peace-4)
+nsubj(collapsed-6, talks-5)
+case(2008-8, in-7)
+obl:in(collapsed-6, 2008-8)
+punct(collapsed-6, ,-9)
+cc(appears-12, and-10)
+nsubj(appears-12, Kony-11)
+conj:and(collapsed-6, appears-12)
+xcomp(appears-12, wary-13)
+case(taking-15, of-14)
+advcl:of(wary-13, taking-15)
+nmod:poss(chances-17, his-16)
+obj(taking-15, chances-17)
+case(terms-19, with-18)
+obl:with(taking-15, terms-19)
+case(surrender-21, of-20)
+nmod:of(terms-19, surrender-21)
+punct(collapsed-6, .-22)
+
+Extracted the following NER entity mentions:
+Internationally-sponsored	MISC	MISC:0.9409756108751653
+2008	DATE	DATE:0.9934261454750718
+Kony	PERSON	PERSON:0.9985256590115341
+his	PERSON	-
+
+Sentence #24 (32 tokens):
+The  International  Criminal  Court  at  The  Hague  has  put  out  an  arrest  warrant  on  his  head ,  indicting  the  Ugandan  warlord  on  33  charges  of  war  crimes  and  crimes  against  humanity.
+
+Tokens:
+[Text=The CharacterOffsetBegin=3513 CharacterOffsetEnd=3516 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=International CharacterOffsetBegin=3518 CharacterOffsetEnd=3531 PartOfSpeech=NNP Lemma=International NamedEntityTag=ORGANIZATION]
+[Text=Criminal CharacterOffsetBegin=3533 CharacterOffsetEnd=3541 PartOfSpeech=NNP Lemma=Criminal NamedEntityTag=ORGANIZATION]
+[Text=Court CharacterOffsetBegin=3543 CharacterOffsetEnd=3548 PartOfSpeech=NNP Lemma=Court NamedEntityTag=ORGANIZATION]
+[Text=at CharacterOffsetBegin=3550 CharacterOffsetEnd=3552 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=3554 CharacterOffsetEnd=3557 PartOfSpeech=DT Lemma=the NamedEntityTag=CITY]
+[Text=Hague CharacterOffsetBegin=3559 CharacterOffsetEnd=3564 PartOfSpeech=NNP Lemma=Hague NamedEntityTag=CITY]
+[Text=has CharacterOffsetBegin=3566 CharacterOffsetEnd=3569 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=3571 CharacterOffsetEnd=3574 PartOfSpeech=VBN Lemma=put NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=3576 CharacterOffsetEnd=3579 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=3581 CharacterOffsetEnd=3583 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=arrest CharacterOffsetBegin=3585 CharacterOffsetEnd=3591 PartOfSpeech=NN Lemma=arrest NamedEntityTag=O]
+[Text=warrant CharacterOffsetBegin=3593 CharacterOffsetEnd=3600 PartOfSpeech=NN Lemma=warrant NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=3602 CharacterOffsetEnd=3604 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=3606 CharacterOffsetEnd=3609 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=3611 CharacterOffsetEnd=3615 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3616 CharacterOffsetEnd=3617 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=indicting CharacterOffsetBegin=3619 CharacterOffsetEnd=3628 PartOfSpeech=VBG Lemma=indict NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3630 CharacterOffsetEnd=3633 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Ugandan CharacterOffsetBegin=3635 CharacterOffsetEnd=3642 PartOfSpeech=NNP Lemma=Ugandan NamedEntityTag=NATIONALITY]
+[Text=warlord CharacterOffsetBegin=3644 CharacterOffsetEnd=3651 PartOfSpeech=NN Lemma=warlord NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=3653 CharacterOffsetEnd=3655 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=33 CharacterOffsetBegin=3657 CharacterOffsetEnd=3659 PartOfSpeech=CD Lemma=33 NamedEntityTag=NUMBER NormalizedNamedEntityTag=33.0]
+[Text=charges CharacterOffsetBegin=3661 CharacterOffsetEnd=3668 PartOfSpeech=NNS Lemma=charge NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3670 CharacterOffsetEnd=3672 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=war CharacterOffsetBegin=3674 CharacterOffsetEnd=3677 PartOfSpeech=NN Lemma=war NamedEntityTag=CRIMINAL_CHARGE]
+[Text=crimes CharacterOffsetBegin=3679 CharacterOffsetEnd=3685 PartOfSpeech=NNS Lemma=crime NamedEntityTag=CRIMINAL_CHARGE]
+[Text=and CharacterOffsetBegin=3687 CharacterOffsetEnd=3690 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=crimes CharacterOffsetBegin=3692 CharacterOffsetEnd=3698 PartOfSpeech=NNS Lemma=crime NamedEntityTag=CRIMINAL_CHARGE]
+[Text=against CharacterOffsetBegin=3700 CharacterOffsetEnd=3707 PartOfSpeech=IN Lemma=against NamedEntityTag=CRIMINAL_CHARGE]
+[Text=humanity CharacterOffsetBegin=3709 CharacterOffsetEnd=3717 PartOfSpeech=NN Lemma=humanity NamedEntityTag=CRIMINAL_CHARGE]
+[Text=. CharacterOffsetBegin=3717 CharacterOffsetEnd=3718 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, put-9)
+det(Court-4, The-1)
+compound(Court-4, International-2)
+compound(Court-4, Criminal-3)
+nsubj(put-9, Court-4)
+case(Hague-7, at-5)
+det(Hague-7, The-6)
+nmod:at(Court-4, Hague-7)
+aux(put-9, has-8)
+compound:prt(put-9, out-10)
+det(warrant-13, an-11)
+compound(warrant-13, arrest-12)
+obj(put-9, warrant-13)
+case(head-16, on-14)
+nmod:poss(head-16, his-15)
+nmod:on(warrant-13, head-16)
+punct(warrant-13, ,-17)
+acl(warrant-13, indicting-18)
+det(warlord-21, the-19)
+compound(warlord-21, Ugandan-20)
+obj(indicting-18, warlord-21)
+case(charges-24, on-22)
+nummod(charges-24, 33-23)
+obl:on(indicting-18, charges-24)
+case(crimes-27, of-25)
+compound(crimes-27, war-26)
+nmod:of(charges-24, crimes-27)
+cc(crimes-29, and-28)
+nmod:of(charges-24, crimes-29)
+conj:and(crimes-27, crimes-29)
+case(humanity-31, against-30)
+nmod:against(crimes-27, humanity-31)
+punct(put-9, .-32)
+
+Extracted the following NER entity mentions:
+International  Criminal  Court	ORGANIZATION	ORGANIZATION:0.9910408449439901
+The  Hague	CITY	LOCATION:0.8542339972519456
+Ugandan	NATIONALITY	MISC:0.999243744368356
+33	NUMBER	NUMBER:-1.0
+war  crimes	CRIMINAL_CHARGE	-
+crimes  against  humanity	CRIMINAL_CHARGE	-
+his	PERSON	-
+
+Sentence #25 (41 tokens):
+Amid  youthful  anti-LRA  lobbying  in  Washington ,  President  Barack  Obama  signed  a  law  in  May  giving  his  administration  180  days  to  complete  a  new  strategy  for  ending  Kony's  reign  of  terror  and  protecting  civilians  in  the  LRA's  wake.
+
+Tokens:
+[Text=Amid CharacterOffsetBegin=3720 CharacterOffsetEnd=3724 PartOfSpeech=IN Lemma=amid NamedEntityTag=O]
+[Text=youthful CharacterOffsetBegin=3726 CharacterOffsetEnd=3734 PartOfSpeech=JJ Lemma=youthful NamedEntityTag=O]
+[Text=anti-LRA CharacterOffsetBegin=3736 CharacterOffsetEnd=3744 PartOfSpeech=JJ Lemma=anti-lra NamedEntityTag=O]
+[Text=lobbying CharacterOffsetBegin=3746 CharacterOffsetEnd=3754 PartOfSpeech=NN Lemma=lobbying NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3756 CharacterOffsetEnd=3758 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Washington CharacterOffsetBegin=3760 CharacterOffsetEnd=3770 PartOfSpeech=NNP Lemma=Washington NamedEntityTag=STATE_OR_PROVINCE]
+[Text=, CharacterOffsetBegin=3771 CharacterOffsetEnd=3772 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=President CharacterOffsetBegin=3774 CharacterOffsetEnd=3783 PartOfSpeech=NNP Lemma=President NamedEntityTag=TITLE]
+[Text=Barack CharacterOffsetBegin=3785 CharacterOffsetEnd=3791 PartOfSpeech=NNP Lemma=Barack NamedEntityTag=PERSON]
+[Text=Obama CharacterOffsetBegin=3793 CharacterOffsetEnd=3798 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON]
+[Text=signed CharacterOffsetBegin=3800 CharacterOffsetEnd=3806 PartOfSpeech=VBD Lemma=sign NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3808 CharacterOffsetEnd=3809 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=law CharacterOffsetBegin=3811 CharacterOffsetEnd=3814 PartOfSpeech=NN Lemma=law NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3816 CharacterOffsetEnd=3818 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=May CharacterOffsetBegin=3820 CharacterOffsetEnd=3823 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05 Timex=<TIMEX3 tid="t11" type="DATE" value="XXXX-05">May</TIMEX3>]
+[Text=giving CharacterOffsetBegin=3825 CharacterOffsetEnd=3831 PartOfSpeech=VBG Lemma=give NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=3833 CharacterOffsetEnd=3836 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=administration CharacterOffsetBegin=3838 CharacterOffsetEnd=3852 PartOfSpeech=NN Lemma=administration NamedEntityTag=O]
+[Text=180 CharacterOffsetBegin=3854 CharacterOffsetEnd=3857 PartOfSpeech=CD Lemma=180 NamedEntityTag=DURATION NormalizedNamedEntityTag=P180D Timex=<TIMEX3 tid="t12" type="DURATION" value="P180D">180  days</TIMEX3>]
+[Text=days CharacterOffsetBegin=3859 CharacterOffsetEnd=3863 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P180D Timex=<TIMEX3 tid="t12" type="DURATION" value="P180D">180  days</TIMEX3>]
+[Text=to CharacterOffsetBegin=3865 CharacterOffsetEnd=3867 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=complete CharacterOffsetBegin=3869 CharacterOffsetEnd=3877 PartOfSpeech=VB Lemma=complete NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3879 CharacterOffsetEnd=3880 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=3882 CharacterOffsetEnd=3885 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=strategy CharacterOffsetBegin=3887 CharacterOffsetEnd=3895 PartOfSpeech=NN Lemma=strategy NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=3897 CharacterOffsetEnd=3900 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=ending CharacterOffsetBegin=3902 CharacterOffsetEnd=3908 PartOfSpeech=VBG Lemma=end NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=3910 CharacterOffsetEnd=3914 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=3914 CharacterOffsetEnd=3916 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=reign CharacterOffsetBegin=3918 CharacterOffsetEnd=3923 PartOfSpeech=NN Lemma=reign NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3925 CharacterOffsetEnd=3927 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=terror CharacterOffsetBegin=3929 CharacterOffsetEnd=3935 PartOfSpeech=NN Lemma=terror NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3937 CharacterOffsetEnd=3940 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=protecting CharacterOffsetBegin=3942 CharacterOffsetEnd=3952 PartOfSpeech=VBG Lemma=protect NamedEntityTag=O]
+[Text=civilians CharacterOffsetBegin=3954 CharacterOffsetEnd=3963 PartOfSpeech=NNS Lemma=civilian NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3965 CharacterOffsetEnd=3967 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3969 CharacterOffsetEnd=3972 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=3974 CharacterOffsetEnd=3977 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=3977 CharacterOffsetEnd=3979 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=wake CharacterOffsetBegin=3981 CharacterOffsetEnd=3985 PartOfSpeech=NN Lemma=wake NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3985 CharacterOffsetEnd=3986 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, signed-11)
+case(lobbying-4, Amid-1)
+amod(lobbying-4, youthful-2)
+amod(lobbying-4, anti-LRA-3)
+obl:amid(signed-11, lobbying-4)
+case(Washington-6, in-5)
+nmod:in(lobbying-4, Washington-6)
+punct(signed-11, ,-7)
+compound(Obama-10, President-8)
+compound(Obama-10, Barack-9)
+nsubj(signed-11, Obama-10)
+det(law-13, a-12)
+obj(signed-11, law-13)
+case(May-15, in-14)
+obl:in(signed-11, May-15)
+dep(signed-11, giving-16)
+nmod:poss(administration-18, his-17)
+obj(giving-16, administration-18)
+nummod(days-20, 180-19)
+obj(giving-16, days-20)
+mark(complete-22, to-21)
+advcl:to(giving-16, complete-22)
+det(strategy-25, a-23)
+amod(strategy-25, new-24)
+obj(complete-22, strategy-25)
+dep(strategy-25, for-26)
+dep(for-26, ending-27)
+nmod:poss(reign-30, Kony-28)
+case(Kony-28, 's-29)
+obj(ending-27, reign-30)
+case(terror-32, of-31)
+nmod:of(reign-30, terror-32)
+cc(protecting-34, and-33)
+dep(for-26, protecting-34)
+conj:and(ending-27, protecting-34)
+obj(protecting-34, civilians-35)
+case(wake-40, in-36)
+det(LRA-38, the-37)
+nmod:poss(wake-40, LRA-38)
+case(LRA-38, 's-39)
+obl:in(protecting-34, wake-40)
+punct(signed-11, .-41)
+
+Extracted the following NER entity mentions:
+Washington	STATE_OR_PROVINCE	LOCATION:0.9996309613979534
+President	TITLE	-
+Barack  Obama	PERSON	PERSON:0.9997050920122769
+May	DATE	DATE:0.9817744409456958
+180  days	DURATION	DURATION:-1.0
+Kony	PERSON	PERSON:0.997034254034925
+LRA	ORGANIZATION	ORGANIZATION:0.9661011286520098
+his	PERSON	-
+
+Sentence #26 (42 tokens):
+Here  in  Southern  Sudan's  fertile  Western  Equatoria  state  --  where  LRA  activities  have  turned  the  region's  breadbasket  into  a  hungry  community  relying  on  outsiders  for  help  --  there  is  confusion  among  officials  as  to  what  the  new  legislation  means.
+
+Tokens:
+[Text=Here CharacterOffsetBegin=3988 CharacterOffsetEnd=3992 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3994 CharacterOffsetEnd=3996 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=3998 CharacterOffsetEnd=4006 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=4008 CharacterOffsetEnd=4013 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text='s CharacterOffsetBegin=4013 CharacterOffsetEnd=4015 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=fertile CharacterOffsetBegin=4017 CharacterOffsetEnd=4024 PartOfSpeech=JJ Lemma=fertile NamedEntityTag=O]
+[Text=Western CharacterOffsetBegin=4026 CharacterOffsetEnd=4033 PartOfSpeech=JJ Lemma=western NamedEntityTag=LOCATION]
+[Text=Equatoria CharacterOffsetBegin=4035 CharacterOffsetEnd=4044 PartOfSpeech=NNP Lemma=Equatoria NamedEntityTag=LOCATION]
+[Text=state CharacterOffsetBegin=4046 CharacterOffsetEnd=4051 PartOfSpeech=NN Lemma=state NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=4053 CharacterOffsetEnd=4055 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=4057 CharacterOffsetEnd=4062 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=4064 CharacterOffsetEnd=4067 PartOfSpeech=NN Lemma=lra NamedEntityTag=ORGANIZATION]
+[Text=activities CharacterOffsetBegin=4069 CharacterOffsetEnd=4079 PartOfSpeech=NNS Lemma=activity NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=4081 CharacterOffsetEnd=4085 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=turned CharacterOffsetBegin=4087 CharacterOffsetEnd=4093 PartOfSpeech=VBN Lemma=turn NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4095 CharacterOffsetEnd=4098 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=region CharacterOffsetBegin=4100 CharacterOffsetEnd=4106 PartOfSpeech=NN Lemma=region NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=4106 CharacterOffsetEnd=4108 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=breadbasket CharacterOffsetBegin=4110 CharacterOffsetEnd=4121 PartOfSpeech=NN Lemma=breadbasket NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=4123 CharacterOffsetEnd=4127 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=4129 CharacterOffsetEnd=4130 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=hungry CharacterOffsetBegin=4132 CharacterOffsetEnd=4138 PartOfSpeech=JJ Lemma=hungry NamedEntityTag=O]
+[Text=community CharacterOffsetBegin=4140 CharacterOffsetEnd=4149 PartOfSpeech=NN Lemma=community NamedEntityTag=O]
+[Text=relying CharacterOffsetBegin=4151 CharacterOffsetEnd=4158 PartOfSpeech=VBG Lemma=rely NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=4160 CharacterOffsetEnd=4162 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=outsiders CharacterOffsetBegin=4164 CharacterOffsetEnd=4173 PartOfSpeech=NNS Lemma=outsider NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=4175 CharacterOffsetEnd=4178 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=4180 CharacterOffsetEnd=4184 PartOfSpeech=NN Lemma=help NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=4186 CharacterOffsetEnd=4188 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=4190 CharacterOffsetEnd=4195 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=4197 CharacterOffsetEnd=4199 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=confusion CharacterOffsetBegin=4201 CharacterOffsetEnd=4210 PartOfSpeech=NN Lemma=confusion NamedEntityTag=O]
+[Text=among CharacterOffsetBegin=4212 CharacterOffsetEnd=4217 PartOfSpeech=IN Lemma=among NamedEntityTag=O]
+[Text=officials CharacterOffsetBegin=4219 CharacterOffsetEnd=4228 PartOfSpeech=NNS Lemma=official NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=4230 CharacterOffsetEnd=4232 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4234 CharacterOffsetEnd=4236 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=4238 CharacterOffsetEnd=4242 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4244 CharacterOffsetEnd=4247 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=4249 CharacterOffsetEnd=4252 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=legislation CharacterOffsetBegin=4254 CharacterOffsetEnd=4265 PartOfSpeech=NN Lemma=legislation NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=4267 CharacterOffsetEnd=4272 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4272 CharacterOffsetEnd=4273 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Here-1)
+case(state-9, in-2)
+compound(Sudan-4, Southern-3)
+nmod:poss(state-9, Sudan-4)
+case(Sudan-4, 's-5)
+amod(state-9, fertile-6)
+amod(state-9, Western-7)
+compound(state-9, Equatoria-8)
+obl:in(Here-1, state-9)
+punct(state-9, ---10)
+advmod(turned-15, where-11)
+compound(activities-13, LRA-12)
+nsubj(turned-15, activities-13)
+aux(turned-15, have-14)
+acl:relcl(state-9, turned-15)
+det(region-17, the-16)
+nmod:poss(breadbasket-19, region-17)
+case(region-17, 's-18)
+obj(turned-15, breadbasket-19)
+case(community-23, into-20)
+det(community-23, a-21)
+amod(community-23, hungry-22)
+obl:into(turned-15, community-23)
+acl(community-23, relying-24)
+case(outsiders-26, on-25)
+obl:on(relying-24, outsiders-26)
+case(help-28, for-27)
+nmod:for(outsiders-26, help-28)
+punct(turned-15, ---29)
+expl(is-31, there-30)
+parataxis(turned-15, is-31)
+nsubj(is-31, confusion-32)
+case(officials-34, among-33)
+nmod:among(confusion-32, officials-34)
+case(means-41, as-35)
+mark(means-41, to-36)
+obj(means-41, what-37)
+det(legislation-40, the-38)
+amod(legislation-40, new-39)
+nsubj(means-41, legislation-40)
+dep(is-31, means-41)
+punct(Here-1, .-42)
+
+Extracted the following NER entity mentions:
+Sudan	COUNTRY	LOCATION:0.9457842897102499
+Western  Equatoria	LOCATION	LOCATION:0.9717934525594187
+LRA	ORGANIZATION	ORGANIZATION:0.745335617405864
+
+Sentence #27 (39 tokens):
+"The  American  government  gave  Obama  six  months  to  fight  and  root  those  people  out  of  the  areas  they  are  operating ,"  says  Robert  Bandi ,  the  advisor  for  political  affairs  in  the  Western  Equatoria  state  government.
+
+Tokens:
+[Text=" CharacterOffsetBegin=4275 CharacterOffsetEnd=4276 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=4276 CharacterOffsetEnd=4279 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=American CharacterOffsetBegin=4281 CharacterOffsetEnd=4289 PartOfSpeech=JJ Lemma=american NamedEntityTag=NATIONALITY]
+[Text=government CharacterOffsetBegin=4291 CharacterOffsetEnd=4301 PartOfSpeech=NN Lemma=government NamedEntityTag=O]
+[Text=gave CharacterOffsetBegin=4303 CharacterOffsetEnd=4307 PartOfSpeech=VBD Lemma=give NamedEntityTag=O]
+[Text=Obama CharacterOffsetBegin=4309 CharacterOffsetEnd=4314 PartOfSpeech=NNP Lemma=Obama NamedEntityTag=PERSON]
+[Text=six CharacterOffsetBegin=4316 CharacterOffsetEnd=4319 PartOfSpeech=CD Lemma=six NamedEntityTag=DURATION NormalizedNamedEntityTag=P6M Timex=<TIMEX3 tid="t13" type="DURATION" value="P6M">six  months</TIMEX3>]
+[Text=months CharacterOffsetBegin=4321 CharacterOffsetEnd=4327 PartOfSpeech=NNS Lemma=month NamedEntityTag=DURATION NormalizedNamedEntityTag=P6M Timex=<TIMEX3 tid="t13" type="DURATION" value="P6M">six  months</TIMEX3>]
+[Text=to CharacterOffsetBegin=4329 CharacterOffsetEnd=4331 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=fight CharacterOffsetBegin=4333 CharacterOffsetEnd=4338 PartOfSpeech=VB Lemma=fight NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4340 CharacterOffsetEnd=4343 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=root CharacterOffsetBegin=4345 CharacterOffsetEnd=4349 PartOfSpeech=VB Lemma=root NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=4351 CharacterOffsetEnd=4356 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=4358 CharacterOffsetEnd=4364 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=4366 CharacterOffsetEnd=4369 PartOfSpeech=IN Lemma=out NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4371 CharacterOffsetEnd=4373 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4375 CharacterOffsetEnd=4378 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=areas CharacterOffsetBegin=4380 CharacterOffsetEnd=4385 PartOfSpeech=NNS Lemma=area NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=4387 CharacterOffsetEnd=4391 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4393 CharacterOffsetEnd=4396 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=operating CharacterOffsetBegin=4398 CharacterOffsetEnd=4407 PartOfSpeech=VBG Lemma=operate NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4408 CharacterOffsetEnd=4409 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=4409 CharacterOffsetEnd=4410 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=4412 CharacterOffsetEnd=4416 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=4418 CharacterOffsetEnd=4424 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Bandi CharacterOffsetBegin=4426 CharacterOffsetEnd=4431 PartOfSpeech=NNP Lemma=Bandi NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=4432 CharacterOffsetEnd=4433 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4435 CharacterOffsetEnd=4438 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=advisor CharacterOffsetBegin=4440 CharacterOffsetEnd=4447 PartOfSpeech=NN Lemma=advisor NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=4449 CharacterOffsetEnd=4452 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=political CharacterOffsetBegin=4454 CharacterOffsetEnd=4463 PartOfSpeech=JJ Lemma=political NamedEntityTag=O]
+[Text=affairs CharacterOffsetBegin=4465 CharacterOffsetEnd=4472 PartOfSpeech=NNS Lemma=affair NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=4474 CharacterOffsetEnd=4476 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4478 CharacterOffsetEnd=4481 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Western CharacterOffsetBegin=4483 CharacterOffsetEnd=4490 PartOfSpeech=JJ Lemma=western NamedEntityTag=LOCATION]
+[Text=Equatoria CharacterOffsetBegin=4492 CharacterOffsetEnd=4501 PartOfSpeech=NNP Lemma=Equatoria NamedEntityTag=LOCATION]
+[Text=state CharacterOffsetBegin=4503 CharacterOffsetEnd=4508 PartOfSpeech=NN Lemma=state NamedEntityTag=O]
+[Text=government CharacterOffsetBegin=4510 CharacterOffsetEnd=4520 PartOfSpeech=NN Lemma=government NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4520 CharacterOffsetEnd=4521 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, says-24)
+punct(gave-5, "-1)
+det(government-4, The-2)
+amod(government-4, American-3)
+nsubj(gave-5, government-4)
+dep(says-24, gave-5)
+iobj(gave-5, Obama-6)
+nummod(months-8, six-7)
+obj(gave-5, months-8)
+mark(fight-10, to-9)
+advcl:to(gave-5, fight-10)
+cc(root-12, and-11)
+advcl:to(gave-5, root-12)
+conj:and(fight-10, root-12)
+det(people-14, those-13)
+obj(fight-10, people-14)
+case(areas-18, out-15)
+fixed(out-15, of-16)
+det(areas-18, the-17)
+obl:out_of(fight-10, areas-18)
+nsubj(operating-21, they-19)
+aux(operating-21, are-20)
+parataxis(fight-10, operating-21)
+punct(gave-5, ,-22)
+punct(gave-5, "-23)
+compound(Bandi-26, Robert-25)
+nsubj(says-24, Bandi-26)
+punct(Bandi-26, ,-27)
+det(advisor-29, the-28)
+appos(Bandi-26, advisor-29)
+case(affairs-32, for-30)
+amod(affairs-32, political-31)
+nmod:for(advisor-29, affairs-32)
+case(government-38, in-33)
+det(government-38, the-34)
+amod(government-38, Western-35)
+compound(government-38, Equatoria-36)
+compound(government-38, state-37)
+nmod:in(advisor-29, government-38)
+punct(says-24, .-39)
+
+Extracted the following NER entity mentions:
+American	NATIONALITY	MISC:0.9999708598362156
+Obama	PERSON	PERSON:0.9844225945717799
+six  months	DURATION	DURATION:-1.0
+Robert  Bandi	PERSON	PERSON:0.9998408832120986
+Western  Equatoria	LOCATION	LOCATION:0.8089725702940753
+
+Sentence #28 (11 tokens):
+"I  think  the  six  months  are  about  to  expire.
+
+Tokens:
+[Text=" CharacterOffsetBegin=4523 CharacterOffsetEnd=4524 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=4524 CharacterOffsetEnd=4525 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=4527 CharacterOffsetEnd=4532 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4534 CharacterOffsetEnd=4537 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=P6M Timex=<TIMEX3 tid="t14" type="DURATION" value="P6M">the  six  months</TIMEX3>]
+[Text=six CharacterOffsetBegin=4539 CharacterOffsetEnd=4542 PartOfSpeech=CD Lemma=six NamedEntityTag=DURATION NormalizedNamedEntityTag=P6M Timex=<TIMEX3 tid="t14" type="DURATION" value="P6M">the  six  months</TIMEX3>]
+[Text=months CharacterOffsetBegin=4544 CharacterOffsetEnd=4550 PartOfSpeech=NNS Lemma=month NamedEntityTag=DURATION NormalizedNamedEntityTag=P6M Timex=<TIMEX3 tid="t14" type="DURATION" value="P6M">the  six  months</TIMEX3>]
+[Text=are CharacterOffsetBegin=4552 CharacterOffsetEnd=4555 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=4557 CharacterOffsetEnd=4562 PartOfSpeech=RB Lemma=about NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4564 CharacterOffsetEnd=4566 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=expire CharacterOffsetBegin=4568 CharacterOffsetEnd=4574 PartOfSpeech=VB Lemma=expire NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4574 CharacterOffsetEnd=4575 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, expire-10)
+punct(expire-10, "-1)
+nsubj(think-3, I-2)
+parataxis(expire-10, think-3)
+det(months-6, the-4)
+nummod(months-6, six-5)
+nsubj(expire-10, months-6)
+cop(expire-10, are-7)
+advmod(expire-10, about-8)
+mark(expire-10, to-9)
+punct(expire-10, .-11)
+
+Extracted the following NER entity mentions:
+the  six  months	DURATION	DURATION:-1.0
+
+Sentence #29 (16 tokens):
+We  do  not  know  how ,  [but]  the  Americans  should  have  come  in.
+
+Tokens:
+[Text=We CharacterOffsetBegin=4577 CharacterOffsetEnd=4579 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=4581 CharacterOffsetEnd=4583 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=4585 CharacterOffsetEnd=4588 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=4590 CharacterOffsetEnd=4594 PartOfSpeech=VB Lemma=know NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=4596 CharacterOffsetEnd=4599 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4600 CharacterOffsetEnd=4601 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=[ CharacterOffsetBegin=4603 CharacterOffsetEnd=4604 PartOfSpeech=-LRB- Lemma=[ NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=4604 CharacterOffsetEnd=4607 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=] CharacterOffsetBegin=4607 CharacterOffsetEnd=4608 PartOfSpeech=-RRB- Lemma=] NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4610 CharacterOffsetEnd=4613 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Americans CharacterOffsetBegin=4615 CharacterOffsetEnd=4624 PartOfSpeech=NNPS Lemma=Americans NamedEntityTag=MISC]
+[Text=should CharacterOffsetBegin=4626 CharacterOffsetEnd=4632 PartOfSpeech=MD Lemma=should NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=4634 CharacterOffsetEnd=4638 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=4640 CharacterOffsetEnd=4644 PartOfSpeech=VBN Lemma=come NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=4646 CharacterOffsetEnd=4648 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4648 CharacterOffsetEnd=4649 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, know-4)
+nsubj(know-4, We-1)
+aux(know-4, do-2)
+advmod(know-4, not-3)
+advmod(come-14, how-5)
+punct(come-14, ,-6)
+punct(come-14, [-7)
+cc(come-14, but-8)
+punct(come-14, ]-9)
+det(Americans-11, the-10)
+nsubj(come-14, Americans-11)
+aux(come-14, should-12)
+aux(come-14, have-13)
+ccomp(know-4, come-14)
+advmod(come-14, in-15)
+punct(know-4, .-16)
+
+Extracted the following NER entity mentions:
+Americans	MISC	MISC:0.9999890389406296
+
+Sentence #30 (24 tokens):
+"  "Up  to  now  the  international  community  has  left  us  alone  to  fight  this  war  imposed  on  us ,"  he  said.
+
+Tokens:
+[Text=" CharacterOffsetBegin=4649 CharacterOffsetEnd=4650 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=4652 CharacterOffsetEnd=4653 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=Up CharacterOffsetBegin=4653 CharacterOffsetEnd=4655 PartOfSpeech=IN Lemma=up NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4657 CharacterOffsetEnd=4659 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=4661 CharacterOffsetEnd=4664 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t15" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=the CharacterOffsetBegin=4666 CharacterOffsetEnd=4669 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=international CharacterOffsetBegin=4671 CharacterOffsetEnd=4684 PartOfSpeech=JJ Lemma=international NamedEntityTag=O]
+[Text=community CharacterOffsetBegin=4686 CharacterOffsetEnd=4695 PartOfSpeech=NN Lemma=community NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=4697 CharacterOffsetEnd=4700 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=left CharacterOffsetBegin=4702 CharacterOffsetEnd=4706 PartOfSpeech=VBN Lemma=leave NamedEntityTag=O]
+[Text=us CharacterOffsetBegin=4708 CharacterOffsetEnd=4710 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=alone CharacterOffsetBegin=4712 CharacterOffsetEnd=4717 PartOfSpeech=RB Lemma=alone NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4719 CharacterOffsetEnd=4721 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=fight CharacterOffsetBegin=4723 CharacterOffsetEnd=4728 PartOfSpeech=VB Lemma=fight NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=4730 CharacterOffsetEnd=4734 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=war CharacterOffsetBegin=4736 CharacterOffsetEnd=4739 PartOfSpeech=NN Lemma=war NamedEntityTag=CAUSE_OF_DEATH]
+[Text=imposed CharacterOffsetBegin=4741 CharacterOffsetEnd=4748 PartOfSpeech=VBN Lemma=impose NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=4750 CharacterOffsetEnd=4752 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=us CharacterOffsetBegin=4754 CharacterOffsetEnd=4756 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4757 CharacterOffsetEnd=4758 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=4758 CharacterOffsetEnd=4759 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=4761 CharacterOffsetEnd=4763 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=4765 CharacterOffsetEnd=4769 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4769 CharacterOffsetEnd=4770 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-23)
+punct(left-10, "-1)
+punct(left-10, "-2)
+case(now-5, Up-3)
+case(now-5, to-4)
+obl:up(left-10, now-5)
+det(community-8, the-6)
+amod(community-8, international-7)
+nsubj(left-10, community-8)
+aux(left-10, has-9)
+dep(said-23, left-10)
+obj(left-10, us-11)
+advmod(left-10, alone-12)
+mark(fight-14, to-13)
+advcl:to(left-10, fight-14)
+det(war-16, this-15)
+obj(fight-14, war-16)
+acl(war-16, imposed-17)
+case(us-19, on-18)
+obl:on(imposed-17, us-19)
+punct(left-10, ,-20)
+punct(left-10, "-21)
+nsubj(said-23, he-22)
+punct(said-23, .-24)
+
+Extracted the following NER entity mentions:
+now	DATE	DATE:-1.0
+war	CAUSE_OF_DEATH	-
+he	PERSON	-
+
+Sentence #31 (20 tokens):
+Local  county  commissioner  Elia  Richard  Box  says  that  financial  support  is  what  he  and  other  authorities  could  use  most.
+
+Tokens:
+[Text=Local CharacterOffsetBegin=4772 CharacterOffsetEnd=4777 PartOfSpeech=JJ Lemma=local NamedEntityTag=O]
+[Text=county CharacterOffsetBegin=4779 CharacterOffsetEnd=4785 PartOfSpeech=NN Lemma=county NamedEntityTag=TITLE]
+[Text=commissioner CharacterOffsetBegin=4787 CharacterOffsetEnd=4799 PartOfSpeech=NN Lemma=commissioner NamedEntityTag=TITLE]
+[Text=Elia CharacterOffsetBegin=4801 CharacterOffsetEnd=4805 PartOfSpeech=NNP Lemma=Elia NamedEntityTag=PERSON]
+[Text=Richard CharacterOffsetBegin=4807 CharacterOffsetEnd=4814 PartOfSpeech=NNP Lemma=Richard NamedEntityTag=PERSON]
+[Text=Box CharacterOffsetBegin=4816 CharacterOffsetEnd=4819 PartOfSpeech=NNP Lemma=Box NamedEntityTag=PERSON]
+[Text=says CharacterOffsetBegin=4821 CharacterOffsetEnd=4825 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=4827 CharacterOffsetEnd=4831 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=financial CharacterOffsetBegin=4833 CharacterOffsetEnd=4842 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O]
+[Text=support CharacterOffsetBegin=4844 CharacterOffsetEnd=4851 PartOfSpeech=NN Lemma=support NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=4853 CharacterOffsetEnd=4855 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=4857 CharacterOffsetEnd=4861 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=4863 CharacterOffsetEnd=4865 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4867 CharacterOffsetEnd=4870 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=4872 CharacterOffsetEnd=4877 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=authorities CharacterOffsetBegin=4879 CharacterOffsetEnd=4890 PartOfSpeech=NNS Lemma=authority NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=4892 CharacterOffsetEnd=4897 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=use CharacterOffsetBegin=4899 CharacterOffsetEnd=4902 PartOfSpeech=VB Lemma=use NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=4904 CharacterOffsetEnd=4908 PartOfSpeech=JJS Lemma=most NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4908 CharacterOffsetEnd=4909 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, says-7)
+amod(commissioner-3, Local-1)
+compound(commissioner-3, county-2)
+compound(Box-6, commissioner-3)
+compound(Box-6, Elia-4)
+compound(Box-6, Richard-5)
+nsubj(says-7, Box-6)
+mark(is-11, that-8)
+amod(support-10, financial-9)
+nsubj(is-11, support-10)
+ccomp(says-7, is-11)
+obj(use-18, what-12)
+nsubj(use-18, he-13)
+cc(authorities-16, and-14)
+amod(authorities-16, other-15)
+conj:and(he-13, authorities-16)
+nsubj(use-18, authorities-16)
+aux(use-18, could-17)
+ccomp(is-11, use-18)
+obj(use-18, most-19)
+punct(says-7, .-20)
+
+Extracted the following NER entity mentions:
+county  commissioner	TITLE	-
+Elia  Richard  Box	PERSON	PERSON:0.9974020387569481
+he	PERSON	-
+
+Sentence #32 (20 tokens):
+"Apart  from  money ,  I  do  not  know  what  the  international  community  can  do ,"  he  said.
+
+Tokens:
+[Text=" CharacterOffsetBegin=4911 CharacterOffsetEnd=4912 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=Apart CharacterOffsetBegin=4912 CharacterOffsetEnd=4917 PartOfSpeech=RB Lemma=apart NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=4919 CharacterOffsetEnd=4923 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=4925 CharacterOffsetEnd=4930 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4931 CharacterOffsetEnd=4932 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=4934 CharacterOffsetEnd=4935 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=4937 CharacterOffsetEnd=4939 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=4941 CharacterOffsetEnd=4944 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=4946 CharacterOffsetEnd=4950 PartOfSpeech=VB Lemma=know NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=4952 CharacterOffsetEnd=4956 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4958 CharacterOffsetEnd=4961 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=international CharacterOffsetBegin=4963 CharacterOffsetEnd=4976 PartOfSpeech=JJ Lemma=international NamedEntityTag=O]
+[Text=community CharacterOffsetBegin=4978 CharacterOffsetEnd=4987 PartOfSpeech=NN Lemma=community NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=4989 CharacterOffsetEnd=4992 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=4994 CharacterOffsetEnd=4996 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4997 CharacterOffsetEnd=4998 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=4998 CharacterOffsetEnd=4999 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=5001 CharacterOffsetEnd=5003 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=5005 CharacterOffsetEnd=5009 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5009 CharacterOffsetEnd=5010 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-19)
+punct(know-9, "-1)
+case(money-4, Apart-2)
+fixed(Apart-2, from-3)
+obl:apart_from(know-9, money-4)
+punct(know-9, ,-5)
+nsubj(know-9, I-6)
+aux(know-9, do-7)
+advmod(know-9, not-8)
+dep(said-19, know-9)
+obj(do-15, what-10)
+det(community-13, the-11)
+amod(community-13, international-12)
+nsubj(do-15, community-13)
+aux(do-15, can-14)
+ccomp(know-9, do-15)
+punct(know-9, ,-16)
+punct(know-9, "-17)
+nsubj(said-19, he-18)
+punct(said-19, .-20)
+
+Extracted the following NER entity mentions:
+he	PERSON	-
+
+Sentence #33 (17 tokens):
+If  funds  are  provided ,  there  is  no  guarantee  the  aid  would  find  its  way  here.
+
+Tokens:
+[Text=If CharacterOffsetBegin=5012 CharacterOffsetEnd=5014 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=funds CharacterOffsetBegin=5016 CharacterOffsetEnd=5021 PartOfSpeech=NNS Lemma=fund NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=5023 CharacterOffsetEnd=5026 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=provided CharacterOffsetBegin=5028 CharacterOffsetEnd=5036 PartOfSpeech=VBN Lemma=provide NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5037 CharacterOffsetEnd=5038 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=5040 CharacterOffsetEnd=5045 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5047 CharacterOffsetEnd=5049 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=5051 CharacterOffsetEnd=5053 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=guarantee CharacterOffsetBegin=5055 CharacterOffsetEnd=5064 PartOfSpeech=NN Lemma=guarantee NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5066 CharacterOffsetEnd=5069 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=aid CharacterOffsetBegin=5071 CharacterOffsetEnd=5074 PartOfSpeech=NN Lemma=aid NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=5076 CharacterOffsetEnd=5081 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=5083 CharacterOffsetEnd=5087 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=5089 CharacterOffsetEnd=5092 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=way CharacterOffsetBegin=5094 CharacterOffsetEnd=5097 PartOfSpeech=NN Lemma=way NamedEntityTag=O]
+[Text=here CharacterOffsetBegin=5099 CharacterOffsetEnd=5103 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5103 CharacterOffsetEnd=5104 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-7)
+mark(provided-4, If-1)
+nsubj:pass(provided-4, funds-2)
+aux:pass(provided-4, are-3)
+advcl:if(is-7, provided-4)
+punct(is-7, ,-5)
+expl(is-7, there-6)
+det(guarantee-9, no-8)
+obl:tmod(find-13, guarantee-9)
+det(aid-11, the-10)
+nsubj(find-13, aid-11)
+aux(find-13, would-12)
+ccomp(is-7, find-13)
+nmod:poss(way-15, its-14)
+obj(find-13, way-15)
+advmod(find-13, here-16)
+punct(is-7, .-17)
+
+Extracted the following NER entity mentions:
+
+Sentence #34 (30 tokens):
+Financial  oversight  is  poor  in  Southern  Sudan's  nascent  government ,  which  came  to  power  in  a  2005  peace  deal  after  a  21-year  rebellion  of  its  own.
+
+Tokens:
+[Text=Financial CharacterOffsetBegin=5106 CharacterOffsetEnd=5115 PartOfSpeech=JJ Lemma=financial NamedEntityTag=O]
+[Text=oversight CharacterOffsetBegin=5117 CharacterOffsetEnd=5126 PartOfSpeech=NN Lemma=oversight NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5128 CharacterOffsetEnd=5130 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=poor CharacterOffsetBegin=5132 CharacterOffsetEnd=5136 PartOfSpeech=JJ Lemma=poor NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=5138 CharacterOffsetEnd=5140 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=5142 CharacterOffsetEnd=5150 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=5152 CharacterOffsetEnd=5157 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text='s CharacterOffsetBegin=5157 CharacterOffsetEnd=5159 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=nascent CharacterOffsetBegin=5161 CharacterOffsetEnd=5168 PartOfSpeech=JJ Lemma=nascent NamedEntityTag=O]
+[Text=government CharacterOffsetBegin=5170 CharacterOffsetEnd=5180 PartOfSpeech=NN Lemma=government NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5181 CharacterOffsetEnd=5182 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=5184 CharacterOffsetEnd=5189 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=came CharacterOffsetBegin=5191 CharacterOffsetEnd=5195 PartOfSpeech=VBD Lemma=come NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5197 CharacterOffsetEnd=5199 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=power CharacterOffsetBegin=5201 CharacterOffsetEnd=5206 PartOfSpeech=NN Lemma=power NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=5208 CharacterOffsetEnd=5210 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5212 CharacterOffsetEnd=5213 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=2005 CharacterOffsetBegin=5215 CharacterOffsetEnd=5219 PartOfSpeech=CD Lemma=2005 NamedEntityTag=DATE NormalizedNamedEntityTag=2005 Timex=<TIMEX3 tid="t16" type="DATE" value="2005">2005</TIMEX3>]
+[Text=peace CharacterOffsetBegin=5221 CharacterOffsetEnd=5226 PartOfSpeech=NN Lemma=peace NamedEntityTag=O]
+[Text=deal CharacterOffsetBegin=5228 CharacterOffsetEnd=5232 PartOfSpeech=NN Lemma=deal NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=5234 CharacterOffsetEnd=5239 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5241 CharacterOffsetEnd=5242 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=21 CharacterOffsetBegin=5244 CharacterOffsetEnd=5246 PartOfSpeech=CD Lemma=21 NamedEntityTag=DURATION NormalizedNamedEntityTag=P21Y Timex=<TIMEX3 tid="t17" type="DURATION" value="P21Y">21-year</TIMEX3>]
+[Text=- CharacterOffsetBegin=5246 CharacterOffsetEnd=5247 PartOfSpeech=HYPH Lemma=- NamedEntityTag=DURATION NormalizedNamedEntityTag=P21Y Timex=<TIMEX3 tid="t17" type="DURATION" value="P21Y">21-year</TIMEX3>]
+[Text=year CharacterOffsetBegin=5247 CharacterOffsetEnd=5251 PartOfSpeech=NN Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P21Y Timex=<TIMEX3 tid="t17" type="DURATION" value="P21Y">21-year</TIMEX3>]
+[Text=rebellion CharacterOffsetBegin=5253 CharacterOffsetEnd=5262 PartOfSpeech=NN Lemma=rebellion NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5264 CharacterOffsetEnd=5266 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=5268 CharacterOffsetEnd=5271 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=5273 CharacterOffsetEnd=5276 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5276 CharacterOffsetEnd=5277 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, poor-4)
+amod(oversight-2, Financial-1)
+nsubj(poor-4, oversight-2)
+cop(poor-4, is-3)
+case(government-10, in-5)
+compound(Sudan-7, Southern-6)
+nmod:poss(government-10, Sudan-7)
+case(Sudan-7, 's-8)
+amod(government-10, nascent-9)
+obl:in(poor-4, government-10)
+nsubj(came-13, government-10)
+punct(government-10, ,-11)
+ref(government-10, which-12)
+acl:relcl(government-10, came-13)
+case(power-15, to-14)
+obl:to(came-13, power-15)
+case(deal-20, in-16)
+det(deal-20, a-17)
+nummod(deal-20, 2005-18)
+compound(deal-20, peace-19)
+obl:in(came-13, deal-20)
+case(rebellion-26, after-21)
+det(rebellion-26, a-22)
+nummod(year-25, 21-23)
+punct(year-25, --24)
+compound(rebellion-26, year-25)
+obl:after(came-13, rebellion-26)
+case(own-29, of-27)
+nmod:poss(own-29, its-28)
+nmod:of(rebellion-26, own-29)
+punct(poor-4, .-30)
+
+Extracted the following NER entity mentions:
+Sudan	COUNTRY	LOCATION:0.9644832024918717
+2005	DATE	DATE:0.9887549071987239
+21-year	DURATION	DURATION:-1.0
+
+Sentence #35 (33 tokens):
+The  Southern  Sudan  army ,  the  SPLA ,  is  still  learning  how  to  operate  as  a  professional  military  and  is  focused  on  a  number  of  other  internal  and  external  threats  as  well.
+
+Tokens:
+[Text=The CharacterOffsetBegin=5279 CharacterOffsetEnd=5282 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=5284 CharacterOffsetEnd=5292 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=5294 CharacterOffsetEnd=5299 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text=army CharacterOffsetBegin=5301 CharacterOffsetEnd=5305 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5306 CharacterOffsetEnd=5307 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5309 CharacterOffsetEnd=5312 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=SPLA CharacterOffsetBegin=5314 CharacterOffsetEnd=5318 PartOfSpeech=NNP Lemma=SPLA NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=5319 CharacterOffsetEnd=5320 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5322 CharacterOffsetEnd=5324 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=5326 CharacterOffsetEnd=5331 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=learning CharacterOffsetBegin=5333 CharacterOffsetEnd=5341 PartOfSpeech=VBG Lemma=learn NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=5343 CharacterOffsetEnd=5346 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5348 CharacterOffsetEnd=5350 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=operate CharacterOffsetBegin=5352 CharacterOffsetEnd=5359 PartOfSpeech=VB Lemma=operate NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=5361 CharacterOffsetEnd=5363 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5365 CharacterOffsetEnd=5366 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=professional CharacterOffsetBegin=5368 CharacterOffsetEnd=5380 PartOfSpeech=JJ Lemma=professional NamedEntityTag=O]
+[Text=military CharacterOffsetBegin=5382 CharacterOffsetEnd=5390 PartOfSpeech=NN Lemma=military NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5392 CharacterOffsetEnd=5395 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5397 CharacterOffsetEnd=5399 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=focused CharacterOffsetBegin=5401 CharacterOffsetEnd=5408 PartOfSpeech=VBN Lemma=focus NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=5410 CharacterOffsetEnd=5412 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5414 CharacterOffsetEnd=5415 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=number CharacterOffsetBegin=5417 CharacterOffsetEnd=5423 PartOfSpeech=NN Lemma=number NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5425 CharacterOffsetEnd=5427 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=5429 CharacterOffsetEnd=5434 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=internal CharacterOffsetBegin=5436 CharacterOffsetEnd=5444 PartOfSpeech=JJ Lemma=internal NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5446 CharacterOffsetEnd=5449 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=external CharacterOffsetBegin=5451 CharacterOffsetEnd=5459 PartOfSpeech=JJ Lemma=external NamedEntityTag=O]
+[Text=threats CharacterOffsetBegin=5461 CharacterOffsetEnd=5468 PartOfSpeech=NNS Lemma=threat NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=5470 CharacterOffsetEnd=5472 PartOfSpeech=RB Lemma=as NamedEntityTag=O]
+[Text=well CharacterOffsetBegin=5474 CharacterOffsetEnd=5478 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5478 CharacterOffsetEnd=5479 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, learning-11)
+det(army-4, The-1)
+compound(Sudan-3, Southern-2)
+compound(army-4, Sudan-3)
+nsubj(learning-11, army-4)
+punct(army-4, ,-5)
+det(SPLA-7, the-6)
+appos(army-4, SPLA-7)
+punct(learning-11, ,-8)
+aux(learning-11, is-9)
+advmod(learning-11, still-10)
+advmod(operate-14, how-12)
+mark(operate-14, to-13)
+ccomp(learning-11, operate-14)
+case(military-18, as-15)
+det(military-18, a-16)
+amod(military-18, professional-17)
+obl:as(operate-14, military-18)
+cc(focused-21, and-19)
+aux:pass(focused-21, is-20)
+ccomp(learning-11, focused-21)
+conj:and(operate-14, focused-21)
+case(number-24, on-22)
+det:qmod(threats-30, a-23)
+fixed(a-23, number-24)
+fixed(a-23, of-25)
+amod(threats-30, other-26)
+amod(threats-30, internal-27)
+cc(external-29, and-28)
+conj:and(internal-27, external-29)
+amod(threats-30, external-29)
+obl(focused-21, threats-30)
+advmod(number-24, as-31)
+fixed(as-31, well-32)
+punct(learning-11, .-33)
+
+Extracted the following NER entity mentions:
+Sudan	COUNTRY	-
+SPLA	ORGANIZATION	ORGANIZATION:0.9905064134782834
+
+Sentence #36 (22 tokens):
+"The  LRA  is  a  very  weak  guerrilla  movement ,"  says  Lieutenant  general  Kuol  Deim  Kuol ,  SPLA's  spokesman.
+
+Tokens:
+[Text=" CharacterOffsetBegin=5481 CharacterOffsetEnd=5482 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=5482 CharacterOffsetEnd=5485 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=5487 CharacterOffsetEnd=5490 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=is CharacterOffsetBegin=5492 CharacterOffsetEnd=5494 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5496 CharacterOffsetEnd=5497 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=5499 CharacterOffsetEnd=5503 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=weak CharacterOffsetBegin=5505 CharacterOffsetEnd=5509 PartOfSpeech=JJ Lemma=weak NamedEntityTag=O]
+[Text=guerrilla CharacterOffsetBegin=5511 CharacterOffsetEnd=5520 PartOfSpeech=NN Lemma=guerrilla NamedEntityTag=O]
+[Text=movement CharacterOffsetBegin=5522 CharacterOffsetEnd=5530 PartOfSpeech=NN Lemma=movement NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5531 CharacterOffsetEnd=5532 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=5532 CharacterOffsetEnd=5533 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=5535 CharacterOffsetEnd=5539 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=Lieutenant CharacterOffsetBegin=5541 CharacterOffsetEnd=5551 PartOfSpeech=NNP Lemma=Lieutenant NamedEntityTag=TITLE]
+[Text=general CharacterOffsetBegin=5553 CharacterOffsetEnd=5560 PartOfSpeech=JJ Lemma=general NamedEntityTag=TITLE]
+[Text=Kuol CharacterOffsetBegin=5562 CharacterOffsetEnd=5566 PartOfSpeech=NNP Lemma=Kuol NamedEntityTag=PERSON]
+[Text=Deim CharacterOffsetBegin=5568 CharacterOffsetEnd=5572 PartOfSpeech=NNP Lemma=Deim NamedEntityTag=PERSON]
+[Text=Kuol CharacterOffsetBegin=5574 CharacterOffsetEnd=5578 PartOfSpeech=NNP Lemma=Kuol NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=5579 CharacterOffsetEnd=5580 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=SPLA CharacterOffsetBegin=5582 CharacterOffsetEnd=5586 PartOfSpeech=NNP Lemma=SPLA NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=5586 CharacterOffsetEnd=5588 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=spokesman CharacterOffsetBegin=5590 CharacterOffsetEnd=5599 PartOfSpeech=NN Lemma=spokesman NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=5599 CharacterOffsetEnd=5600 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, says-12)
+punct(says-12, "-1)
+det(LRA-3, The-2)
+nsubj(movement-9, LRA-3)
+cop(movement-9, is-4)
+det(movement-9, a-5)
+advmod(weak-7, very-6)
+amod(movement-9, weak-7)
+compound(movement-9, guerrilla-8)
+ccomp(says-12, movement-9)
+punct(says-12, ,-10)
+punct(says-12, "-11)
+compound(Kuol-17, Lieutenant-13)
+amod(Kuol-17, general-14)
+compound(Kuol-17, Kuol-15)
+compound(Kuol-17, Deim-16)
+nsubj(says-12, Kuol-17)
+punct(Kuol-17, ,-18)
+nmod:poss(spokesman-21, SPLA-19)
+case(SPLA-19, 's-20)
+appos(Kuol-17, spokesman-21)
+punct(says-12, .-22)
+
+Extracted the following NER entity mentions:
+LRA	ORGANIZATION	ORGANIZATION:0.9649741935850716
+Lieutenant  general	TITLE	-
+Kuol  Deim  Kuol	PERSON	PERSON:0.9954633496910863
+SPLA	ORGANIZATION	ORGANIZATION:0.9989010094180277
+spokesman	TITLE	-
+
+Sentence #37 (26 tokens):
+"They  operate  in  small  groups  of  three ,  and  when  you  try  to  confront  them  they  do  not  stand  in  front  of  you."
+
+Tokens:
+[Text=" CharacterOffsetBegin=5602 CharacterOffsetEnd=5603 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=They CharacterOffsetBegin=5603 CharacterOffsetEnd=5607 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=operate CharacterOffsetBegin=5609 CharacterOffsetEnd=5616 PartOfSpeech=VBP Lemma=operate NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=5618 CharacterOffsetEnd=5620 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=small CharacterOffsetBegin=5622 CharacterOffsetEnd=5627 PartOfSpeech=JJ Lemma=small NamedEntityTag=O]
+[Text=groups CharacterOffsetBegin=5629 CharacterOffsetEnd=5635 PartOfSpeech=NNS Lemma=group NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5637 CharacterOffsetEnd=5639 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=three CharacterOffsetBegin=5641 CharacterOffsetEnd=5646 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=, CharacterOffsetBegin=5647 CharacterOffsetEnd=5648 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5650 CharacterOffsetEnd=5653 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=5655 CharacterOffsetEnd=5659 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=5661 CharacterOffsetEnd=5664 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=try CharacterOffsetBegin=5666 CharacterOffsetEnd=5669 PartOfSpeech=VBP Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5671 CharacterOffsetEnd=5673 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=confront CharacterOffsetBegin=5675 CharacterOffsetEnd=5683 PartOfSpeech=VB Lemma=confront NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=5685 CharacterOffsetEnd=5689 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=5691 CharacterOffsetEnd=5695 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=5697 CharacterOffsetEnd=5699 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=5701 CharacterOffsetEnd=5704 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=stand CharacterOffsetBegin=5706 CharacterOffsetEnd=5711 PartOfSpeech=VB Lemma=stand NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=5713 CharacterOffsetEnd=5715 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=front CharacterOffsetBegin=5717 CharacterOffsetEnd=5722 PartOfSpeech=NN Lemma=front NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5724 CharacterOffsetEnd=5726 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=5728 CharacterOffsetEnd=5731 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5731 CharacterOffsetEnd=5732 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=5732 CharacterOffsetEnd=5733 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, operate-3)
+punct(operate-3, "-1)
+nsubj(operate-3, They-2)
+case(groups-6, in-4)
+amod(groups-6, small-5)
+obl:in(operate-3, groups-6)
+case(three-8, of-7)
+nmod:of(groups-6, three-8)
+punct(operate-3, ,-9)
+cc(stand-20, and-10)
+advmod(try-13, when-11)
+nsubj(try-13, you-12)
+nsubj:xsubj(confront-15, you-12)
+advcl(stand-20, try-13)
+mark(confront-15, to-14)
+xcomp(try-13, confront-15)
+obj(confront-15, them-16)
+nsubj(stand-20, they-17)
+aux(stand-20, do-18)
+advmod(stand-20, not-19)
+conj:and(operate-3, stand-20)
+case(you-24, in-21)
+fixed(in-21, front-22)
+fixed(in-21, of-23)
+obl:in_front_of(stand-20, you-24)
+punct(operate-3, .-25)
+punct(operate-3, "-26)
+
+Extracted the following NER entity mentions:
+three	NUMBER	NUMBER:-1.0
+
+Sentence #38 (6 tokens):
+"They  behave  like  rats.
+
+Tokens:
+[Text=" CharacterOffsetBegin=5735 CharacterOffsetEnd=5736 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=They CharacterOffsetBegin=5736 CharacterOffsetEnd=5740 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=behave CharacterOffsetBegin=5742 CharacterOffsetEnd=5748 PartOfSpeech=VBP Lemma=behave NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=5750 CharacterOffsetEnd=5754 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=rats CharacterOffsetBegin=5756 CharacterOffsetEnd=5760 PartOfSpeech=NNS Lemma=rat NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5760 CharacterOffsetEnd=5761 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, behave-3)
+punct(behave-3, "-1)
+nsubj(behave-3, They-2)
+case(rats-5, like-4)
+obl:like(behave-3, rats-5)
+punct(behave-3, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #39 (21 tokens):
+A  rat  comes  out  of  a  hole ,  it  comes  and  picks  what  it  wants ,"  he  said.  "
+
+Tokens:
+[Text=A CharacterOffsetBegin=5763 CharacterOffsetEnd=5764 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=rat CharacterOffsetBegin=5766 CharacterOffsetEnd=5769 PartOfSpeech=NN Lemma=rat NamedEntityTag=O]
+[Text=comes CharacterOffsetBegin=5771 CharacterOffsetEnd=5776 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=5778 CharacterOffsetEnd=5781 PartOfSpeech=IN Lemma=out NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5783 CharacterOffsetEnd=5785 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5787 CharacterOffsetEnd=5788 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=hole CharacterOffsetBegin=5790 CharacterOffsetEnd=5794 PartOfSpeech=NN Lemma=hole NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5795 CharacterOffsetEnd=5796 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=5798 CharacterOffsetEnd=5800 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=comes CharacterOffsetBegin=5802 CharacterOffsetEnd=5807 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5809 CharacterOffsetEnd=5812 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=picks CharacterOffsetBegin=5814 CharacterOffsetEnd=5819 PartOfSpeech=VBZ Lemma=pick NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=5821 CharacterOffsetEnd=5825 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=5827 CharacterOffsetEnd=5829 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=5831 CharacterOffsetEnd=5836 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5837 CharacterOffsetEnd=5838 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=5838 CharacterOffsetEnd=5839 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=5841 CharacterOffsetEnd=5843 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=5845 CharacterOffsetEnd=5849 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5849 CharacterOffsetEnd=5850 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=5852 CharacterOffsetEnd=5853 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-19)
+det(rat-2, A-1)
+nsubj(comes-3, rat-2)
+ccomp(said-19, comes-3)
+case(hole-7, out-4)
+fixed(out-4, of-5)
+det(hole-7, a-6)
+obl:out_of(comes-3, hole-7)
+punct(comes-3, ,-8)
+nsubj(comes-10, it-9)
+nsubj(picks-12, it-9)
+parataxis(comes-3, comes-10)
+cc(picks-12, and-11)
+parataxis(comes-3, picks-12)
+conj:and(comes-10, picks-12)
+obj(wants-15, what-13)
+nsubj(wants-15, it-14)
+ccomp(comes-10, wants-15)
+punct(said-19, ,-16)
+punct(said-19, "-17)
+nsubj(said-19, he-18)
+punct(said-19, .-20)
+punct(said-19, "-21)
+
+Extracted the following NER entity mentions:
+he	PERSON	-
+
+Sentence #40 (13 tokens):
+It  is  difficult  for  you  to  trace  it  back  to  the  hole.
+
+Tokens:
+[Text=It CharacterOffsetBegin=5853 CharacterOffsetEnd=5855 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5857 CharacterOffsetEnd=5859 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=difficult CharacterOffsetBegin=5861 CharacterOffsetEnd=5870 PartOfSpeech=JJ Lemma=difficult NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=5872 CharacterOffsetEnd=5875 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=5877 CharacterOffsetEnd=5880 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5882 CharacterOffsetEnd=5884 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=trace CharacterOffsetBegin=5886 CharacterOffsetEnd=5891 PartOfSpeech=VB Lemma=trace NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=5893 CharacterOffsetEnd=5895 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=5897 CharacterOffsetEnd=5901 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5903 CharacterOffsetEnd=5905 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5907 CharacterOffsetEnd=5910 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=hole CharacterOffsetBegin=5912 CharacterOffsetEnd=5916 PartOfSpeech=NN Lemma=hole NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5916 CharacterOffsetEnd=5917 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, difficult-3)
+nsubj(difficult-3, It-1)
+cop(difficult-3, is-2)
+mark(trace-7, for-4)
+nsubj(trace-7, you-5)
+mark(trace-7, to-6)
+advcl:for(difficult-3, trace-7)
+obj(trace-7, it-8)
+advmod(trace-7, back-9)
+case(hole-12, to-10)
+det(hole-12, the-11)
+obl:to(back-9, hole-12)
+punct(difficult-3, .-13)
+
+Extracted the following NER entity mentions:
+
+Sentence #41 (32 tokens):
+"  Instead ,  the  Southern  Sudan  government  is  relying  on  the  assistance  of  neighboring  Uganda's  military ,  the  UPDF ,  to  do  most  of  the  chasing  of  the  LRA  themselves.
+
+Tokens:
+[Text=" CharacterOffsetBegin=5917 CharacterOffsetEnd=5918 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=Instead CharacterOffsetBegin=5920 CharacterOffsetEnd=5927 PartOfSpeech=RB Lemma=instead NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5928 CharacterOffsetEnd=5929 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5931 CharacterOffsetEnd=5934 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Southern CharacterOffsetBegin=5936 CharacterOffsetEnd=5944 PartOfSpeech=NNP Lemma=Southern NamedEntityTag=O]
+[Text=Sudan CharacterOffsetBegin=5946 CharacterOffsetEnd=5951 PartOfSpeech=NNP Lemma=Sudan NamedEntityTag=COUNTRY]
+[Text=government CharacterOffsetBegin=5953 CharacterOffsetEnd=5963 PartOfSpeech=NN Lemma=government NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5965 CharacterOffsetEnd=5967 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=relying CharacterOffsetBegin=5969 CharacterOffsetEnd=5976 PartOfSpeech=VBG Lemma=rely NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=5978 CharacterOffsetEnd=5980 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5982 CharacterOffsetEnd=5985 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=assistance CharacterOffsetBegin=5987 CharacterOffsetEnd=5997 PartOfSpeech=NN Lemma=assistance NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5999 CharacterOffsetEnd=6001 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=neighboring CharacterOffsetBegin=6003 CharacterOffsetEnd=6014 PartOfSpeech=VBG Lemma=neighbor NamedEntityTag=O]
+[Text=Uganda CharacterOffsetBegin=6016 CharacterOffsetEnd=6022 PartOfSpeech=NNP Lemma=Uganda NamedEntityTag=COUNTRY]
+[Text='s CharacterOffsetBegin=6022 CharacterOffsetEnd=6024 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=military CharacterOffsetBegin=6026 CharacterOffsetEnd=6034 PartOfSpeech=NN Lemma=military NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6035 CharacterOffsetEnd=6036 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6038 CharacterOffsetEnd=6041 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=UPDF CharacterOffsetBegin=6043 CharacterOffsetEnd=6047 PartOfSpeech=NNP Lemma=UPDF NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=6048 CharacterOffsetEnd=6049 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6051 CharacterOffsetEnd=6053 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=6055 CharacterOffsetEnd=6057 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=6059 CharacterOffsetEnd=6063 PartOfSpeech=JJS Lemma=most NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6065 CharacterOffsetEnd=6067 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6069 CharacterOffsetEnd=6072 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=chasing CharacterOffsetBegin=6074 CharacterOffsetEnd=6081 PartOfSpeech=NN Lemma=chasing NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6083 CharacterOffsetEnd=6085 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6087 CharacterOffsetEnd=6090 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LRA CharacterOffsetBegin=6092 CharacterOffsetEnd=6095 PartOfSpeech=NNP Lemma=LRA NamedEntityTag=ORGANIZATION]
+[Text=themselves CharacterOffsetBegin=6097 CharacterOffsetEnd=6107 PartOfSpeech=PRP Lemma=themselves NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6107 CharacterOffsetEnd=6108 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, do-23)
+punct(do-23, "-1)
+advmod(relying-9, Instead-2)
+punct(relying-9, ,-3)
+det(government-7, the-4)
+compound(Sudan-6, Southern-5)
+compound(government-7, Sudan-6)
+nsubj(relying-9, government-7)
+aux(relying-9, is-8)
+advcl(do-23, relying-9)
+case(assistance-12, on-10)
+det(assistance-12, the-11)
+obl:on(relying-9, assistance-12)
+case(military-17, of-13)
+amod(Uganda-15, neighboring-14)
+nmod:poss(military-17, Uganda-15)
+case(Uganda-15, 's-16)
+nmod:of(assistance-12, military-17)
+punct(do-23, ,-18)
+det(UPDF-20, the-19)
+nsubj(do-23, UPDF-20)
+punct(do-23, ,-21)
+mark(do-23, to-22)
+obj(do-23, most-24)
+case(chasing-27, of-25)
+det(chasing-27, the-26)
+nmod:of(most-24, chasing-27)
+case(LRA-30, of-28)
+det(LRA-30, the-29)
+nmod:of(chasing-27, LRA-30)
+obl:npmod(LRA-30, themselves-31)
+punct(do-23, .-32)
+
+Extracted the following NER entity mentions:
+Sudan	COUNTRY	LOCATION:0.7417977334904954
+Uganda	COUNTRY	LOCATION:0.9996012740791947
+UPDF	ORGANIZATION	ORGANIZATION:0.9362576136502602
+LRA	ORGANIZATION	ORGANIZATION:0.8966053429238844
+
+Sentence #42 (20 tokens):
+Even  if  Kony  is  finally  killed  or  captured ,  hundreds  of  former  abducted  boys  have  now  grown  into  men.
+
+Tokens:
+[Text=Even CharacterOffsetBegin=6110 CharacterOffsetEnd=6114 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=6116 CharacterOffsetEnd=6118 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=6120 CharacterOffsetEnd=6124 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=6126 CharacterOffsetEnd=6128 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=6130 CharacterOffsetEnd=6137 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=6139 CharacterOffsetEnd=6145 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=6147 CharacterOffsetEnd=6149 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=captured CharacterOffsetBegin=6151 CharacterOffsetEnd=6159 PartOfSpeech=VBN Lemma=capture NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6160 CharacterOffsetEnd=6161 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=hundreds CharacterOffsetBegin=6163 CharacterOffsetEnd=6171 PartOfSpeech=NNS Lemma=hundred NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6173 CharacterOffsetEnd=6175 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=former CharacterOffsetBegin=6177 CharacterOffsetEnd=6183 PartOfSpeech=JJ Lemma=former NamedEntityTag=O]
+[Text=abducted CharacterOffsetBegin=6185 CharacterOffsetEnd=6193 PartOfSpeech=VBN Lemma=abduct NamedEntityTag=O]
+[Text=boys CharacterOffsetBegin=6195 CharacterOffsetEnd=6199 PartOfSpeech=NNS Lemma=boy NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=6201 CharacterOffsetEnd=6205 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=6207 CharacterOffsetEnd=6210 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t18" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=grown CharacterOffsetBegin=6212 CharacterOffsetEnd=6217 PartOfSpeech=VBN Lemma=grow NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=6219 CharacterOffsetEnd=6223 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=men CharacterOffsetBegin=6225 CharacterOffsetEnd=6228 PartOfSpeech=NNS Lemma=man NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6228 CharacterOffsetEnd=6229 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, grown-17)
+advmod(killed-6, Even-1)
+mark(killed-6, if-2)
+nsubj:pass(killed-6, Kony-3)
+nsubj:pass(captured-8, Kony-3)
+aux:pass(killed-6, is-4)
+advmod(killed-6, finally-5)
+advcl:if(grown-17, killed-6)
+cc(captured-8, or-7)
+conj:or(killed-6, captured-8)
+advcl:if(grown-17, captured-8)
+punct(grown-17, ,-9)
+det:qmod(boys-14, hundreds-10)
+fixed(hundreds-10, of-11)
+amod(boys-14, former-12)
+amod(boys-14, abducted-13)
+nsubj(grown-17, boys-14)
+aux(grown-17, have-15)
+advmod(grown-17, now-16)
+case(men-19, into-18)
+obl:into(grown-17, men-19)
+punct(grown-17, .-20)
+
+Extracted the following NER entity mentions:
+Kony	PERSON	PERSON:0.9891339327244804
+now	DATE	DATE:-1.0
+
+Sentence #43 (25 tokens):
+They  have  learned  to  operate  in  mostly  autonomous  cells  far  distanced  from  their  leader ,  and  know  no  life  apart  from  their  guerrilla  existence.
+
+Tokens:
+[Text=They CharacterOffsetBegin=6231 CharacterOffsetEnd=6235 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=6237 CharacterOffsetEnd=6241 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=learned CharacterOffsetBegin=6243 CharacterOffsetEnd=6250 PartOfSpeech=VBN Lemma=learn NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6252 CharacterOffsetEnd=6254 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=operate CharacterOffsetBegin=6256 CharacterOffsetEnd=6263 PartOfSpeech=VB Lemma=operate NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=6265 CharacterOffsetEnd=6267 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=mostly CharacterOffsetBegin=6269 CharacterOffsetEnd=6275 PartOfSpeech=RB Lemma=mostly NamedEntityTag=O]
+[Text=autonomous CharacterOffsetBegin=6277 CharacterOffsetEnd=6287 PartOfSpeech=JJ Lemma=autonomous NamedEntityTag=O]
+[Text=cells CharacterOffsetBegin=6289 CharacterOffsetEnd=6294 PartOfSpeech=NNS Lemma=cell NamedEntityTag=O]
+[Text=far CharacterOffsetBegin=6296 CharacterOffsetEnd=6299 PartOfSpeech=RB Lemma=far NamedEntityTag=O]
+[Text=distanced CharacterOffsetBegin=6301 CharacterOffsetEnd=6310 PartOfSpeech=VBN Lemma=distance NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=6312 CharacterOffsetEnd=6316 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=6318 CharacterOffsetEnd=6323 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=leader CharacterOffsetBegin=6325 CharacterOffsetEnd=6331 PartOfSpeech=NN Lemma=leader NamedEntityTag=TITLE]
+[Text=, CharacterOffsetBegin=6332 CharacterOffsetEnd=6333 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6335 CharacterOffsetEnd=6338 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=6340 CharacterOffsetEnd=6344 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=6346 CharacterOffsetEnd=6348 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=6350 CharacterOffsetEnd=6354 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=apart CharacterOffsetBegin=6356 CharacterOffsetEnd=6361 PartOfSpeech=RB Lemma=apart NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=6363 CharacterOffsetEnd=6367 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=6369 CharacterOffsetEnd=6374 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=guerrilla CharacterOffsetBegin=6376 CharacterOffsetEnd=6385 PartOfSpeech=NN Lemma=guerrilla NamedEntityTag=O]
+[Text=existence CharacterOffsetBegin=6387 CharacterOffsetEnd=6396 PartOfSpeech=NN Lemma=existence NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6396 CharacterOffsetEnd=6397 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, learned-3)
+nsubj(learned-3, They-1)
+nsubj:xsubj(operate-5, They-1)
+nsubj(know-17, They-1)
+aux(learned-3, have-2)
+mark(operate-5, to-4)
+xcomp(learned-3, operate-5)
+case(cells-9, in-6)
+advmod(autonomous-8, mostly-7)
+amod(cells-9, autonomous-8)
+obl:in(operate-5, cells-9)
+advmod(distanced-11, far-10)
+dep(operate-5, distanced-11)
+case(leader-14, from-12)
+nmod:poss(leader-14, their-13)
+obl:from(distanced-11, leader-14)
+punct(learned-3, ,-15)
+cc(know-17, and-16)
+conj:and(learned-3, know-17)
+det(life-19, no-18)
+obj(know-17, life-19)
+case(existence-24, apart-20)
+fixed(apart-20, from-21)
+nmod:poss(existence-24, their-22)
+compound(existence-24, guerrilla-23)
+obl:apart_from(know-17, existence-24)
+punct(learned-3, .-25)
+
+Extracted the following NER entity mentions:
+leader	TITLE	-
+
+Sentence #44 (30 tokens):
+Abuda ,  appearing  thin  and  weary ,  most  now  live  with  the  knowledge  that  his  son  and  daughter  could  soon  grow  up  into  Kony's  next  generation  of  followers.
+
+Tokens:
+[Text=Abuda CharacterOffsetBegin=6399 CharacterOffsetEnd=6404 PartOfSpeech=NNP Lemma=Abuda NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=6405 CharacterOffsetEnd=6406 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=appearing CharacterOffsetBegin=6408 CharacterOffsetEnd=6417 PartOfSpeech=VBG Lemma=appear NamedEntityTag=O]
+[Text=thin CharacterOffsetBegin=6419 CharacterOffsetEnd=6423 PartOfSpeech=JJ Lemma=thin NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6425 CharacterOffsetEnd=6428 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=weary CharacterOffsetBegin=6430 CharacterOffsetEnd=6435 PartOfSpeech=JJ Lemma=weary NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6436 CharacterOffsetEnd=6437 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=6439 CharacterOffsetEnd=6443 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=6445 CharacterOffsetEnd=6448 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t19" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=live CharacterOffsetBegin=6450 CharacterOffsetEnd=6454 PartOfSpeech=VBP Lemma=live NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=6456 CharacterOffsetEnd=6460 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6462 CharacterOffsetEnd=6465 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=knowledge CharacterOffsetBegin=6467 CharacterOffsetEnd=6476 PartOfSpeech=NN Lemma=knowledge NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=6478 CharacterOffsetEnd=6482 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=6484 CharacterOffsetEnd=6487 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=6489 CharacterOffsetEnd=6492 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6494 CharacterOffsetEnd=6497 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=daughter CharacterOffsetBegin=6499 CharacterOffsetEnd=6507 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=6509 CharacterOffsetEnd=6514 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=soon CharacterOffsetBegin=6516 CharacterOffsetEnd=6520 PartOfSpeech=RB Lemma=soon NamedEntityTag=O]
+[Text=grow CharacterOffsetBegin=6522 CharacterOffsetEnd=6526 PartOfSpeech=VB Lemma=grow NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=6528 CharacterOffsetEnd=6530 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=6532 CharacterOffsetEnd=6536 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Kony CharacterOffsetBegin=6538 CharacterOffsetEnd=6542 PartOfSpeech=NNP Lemma=Kony NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=6542 CharacterOffsetEnd=6544 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=next CharacterOffsetBegin=6546 CharacterOffsetEnd=6550 PartOfSpeech=JJ Lemma=next NamedEntityTag=O]
+[Text=generation CharacterOffsetBegin=6552 CharacterOffsetEnd=6562 PartOfSpeech=NN Lemma=generation NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6564 CharacterOffsetEnd=6566 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=followers CharacterOffsetBegin=6568 CharacterOffsetEnd=6577 PartOfSpeech=NNS Lemma=follower NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6577 CharacterOffsetEnd=6578 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, live-10)
+nsubj(live-10, Abuda-1)
+punct(Abuda-1, ,-2)
+acl(Abuda-1, appearing-3)
+xcomp(appearing-3, thin-4)
+cc(weary-6, and-5)
+xcomp(appearing-3, weary-6)
+conj:and(thin-4, weary-6)
+punct(Abuda-1, ,-7)
+advmod(now-9, most-8)
+advmod(live-10, now-9)
+case(knowledge-13, with-11)
+det(knowledge-13, the-12)
+obl:with(live-10, knowledge-13)
+mark(grow-21, that-14)
+nmod:poss(son-16, his-15)
+nsubj(grow-21, son-16)
+cc(daughter-18, and-17)
+conj:and(son-16, daughter-18)
+nsubj(grow-21, daughter-18)
+aux(grow-21, could-19)
+advmod(grow-21, soon-20)
+ccomp(knowledge-13, grow-21)
+compound:prt(grow-21, up-22)
+case(generation-27, into-23)
+nmod:poss(generation-27, Kony-24)
+case(Kony-24, 's-25)
+amod(generation-27, next-26)
+obl:into(grow-21, generation-27)
+case(followers-29, of-28)
+nmod:of(generation-27, followers-29)
+punct(live-10, .-30)
+
+Extracted the following NER entity mentions:
+Abuda	PERSON	PERSON:0.6178537453776454
+now	DATE	DATE:-1.0
+Kony	PERSON	PERSON:0.9967464763497493
+his	PERSON	-
+
+Coreference set:
+	(37,24,[24,25]) -> (37,12,[12,13]), that is: "you" -> "you"
+
+Coreference set:
+	(20,8,[7,9]) -> (26,17,[16,19]), that is: "the region" -> "the region 's"
+
+Coreference set:
+	(1,3,[3,4]) -> (12,36,[36,38]), that is: "Sudan" -> "Sudan 's"
+	(12,42,[42,43]) -> (12,36,[36,38]), that is: "Sudan" -> "Sudan 's"
+
+Coreference set:
+	(25,17,[17,18]) -> (25,10,[8,11]), that is: "his" -> "President Barack Obama"
+	(27,6,[6,7]) -> (25,10,[8,11]), that is: "Obama" -> "President Barack Obama"
+
+Coreference set:
+	(19,13,[12,14]) -> (20,2,[1,4]), that is: "the group" -> "The group 's"
+
+Coreference set:
+	(39,9,[9,10]) -> (39,2,[1,3]), that is: "it" -> "A rat"
+	(39,14,[14,15]) -> (39,2,[1,3]), that is: "it" -> "A rat"
+	(40,1,[1,2]) -> (39,2,[1,3]), that is: "It" -> "A rat"
+	(40,8,[8,9]) -> (39,2,[1,3]), that is: "it" -> "A rat"
+
+Coreference set:
+	(4,13,[13,14]) -> (25,38,[37,40]), that is: "LRA" -> "the LRA 's"
+	(12,4,[3,5]) -> (25,38,[37,40]), that is: "the LRA" -> "the LRA 's"
+	(12,8,[8,9]) -> (25,38,[37,40]), that is: "their" -> "the LRA 's"
+	(15,13,[12,14]) -> (25,38,[37,40]), that is: "the LRA" -> "the LRA 's"
+	(21,45,[44,46]) -> (25,38,[37,40]), that is: "the LRA" -> "the LRA 's"
+	(26,12,[12,13]) -> (25,38,[37,40]), that is: "LRA" -> "the LRA 's"
+	(36,3,[2,4]) -> (25,38,[37,40]), that is: "The LRA" -> "the LRA 's"
+	(37,2,[2,3]) -> (25,38,[37,40]), that is: "They" -> "the LRA 's"
+	(37,16,[16,17]) -> (25,38,[37,40]), that is: "them" -> "the LRA 's"
+	(37,17,[17,18]) -> (25,38,[37,40]), that is: "they" -> "the LRA 's"
+	(38,2,[2,3]) -> (25,38,[37,40]), that is: "They" -> "the LRA 's"
+
+Coreference set:
+	(27,19,[19,20]) -> (27,14,[13,15]), that is: "they" -> "those people"
+
+Coreference set:
+	(3,1,[1,2]) -> (2,6,[5,7]), that is: "They" -> "dirty men"
+	(4,1,[1,2]) -> (2,6,[5,7]), that is: "They" -> "dirty men"
+	(5,1,[1,2]) -> (2,6,[5,7]), that is: "They" -> "dirty men"
+
+Coreference set:
+	(28,2,[2,3]) -> (27,26,[25,39]), that is: "I" -> "Robert Bandi , the advisor for political affairs in the Western Equatoria state government"
+
+Coreference set:
+	(13,12,[12,13]) -> (13,2,[1,3]), that is: "their" -> "The guerrillas"
+
+Coreference set:
+	(30,11,[11,12]) -> (29,1,[1,2]), that is: "us" -> "We"
+	(30,19,[19,20]) -> (29,1,[1,2]), that is: "us" -> "We"
+
+Coreference set:
+	(14,9,[8,10]) -> (13,7,[6,8]), that is: "the run" -> "the run"
+
+Coreference set:
+	(43,1,[1,2]) -> (42,10,[10,15]), that is: "They" -> "hundreds of former abducted boys"
+	(43,13,[13,14]) -> (42,10,[10,15]), that is: "their" -> "hundreds of former abducted boys"
+	(43,22,[22,23]) -> (42,10,[10,15]), that is: "their" -> "hundreds of former abducted boys"
+
+Coreference set:
+	(31,13,[13,14]) -> (30,22,[22,23]), that is: "he" -> "he"
+	(32,18,[18,19]) -> (30,22,[22,23]), that is: "he" -> "he"
+
+Coreference set:
+	(32,13,[11,14]) -> (30,8,[6,9]), that is: "the international community" -> "the international community"
+
+Coreference set:
+	(32,6,[6,7]) -> (31,6,[1,7]), that is: "I" -> "Local county commissioner Elia Richard Box"
+
+Coreference set:
+	(18,18,[18,20]) -> (13,28,[28,30]), that is: "Kony 's" -> "Kony 's"
+	(23,11,[11,12]) -> (13,28,[28,30]), that is: "Kony" -> "Kony 's"
+	(23,16,[16,17]) -> (13,28,[28,30]), that is: "his" -> "Kony 's"
+	(24,15,[15,16]) -> (13,28,[28,30]), that is: "his" -> "Kony 's"
+	(25,28,[28,30]) -> (13,28,[28,30]), that is: "Kony 's" -> "Kony 's"
+	(42,3,[3,4]) -> (13,28,[28,30]), that is: "Kony" -> "Kony 's"
+	(44,24,[24,26]) -> (13,28,[28,30]), that is: "Kony 's" -> "Kony 's"
+
+Coreference set:
+	(44,16,[15,17]) -> (6,2,[1,3]), that is: "his son" -> "His son"
+
+Coreference set:
+	(1,13,[13,14]) -> (1,9,[8,10]), that is: "his" -> "Albert Abuda"
+	(2,13,[13,14]) -> (1,9,[8,10]), that is: "his" -> "Albert Abuda"
+	(3,5,[5,6]) -> (1,9,[8,10]), that is: "he" -> "Albert Abuda"
+	(6,1,[1,2]) -> (1,9,[8,10]), that is: "His" -> "Albert Abuda"
+	(6,14,[14,15]) -> (1,9,[8,10]), that is: "his" -> "Albert Abuda"
+	(7,3,[3,4]) -> (1,9,[8,10]), that is: "Abuda" -> "Albert Abuda"
+	(9,18,[18,19]) -> (1,9,[8,10]), that is: "he" -> "Albert Abuda"
+	(9,30,[30,31]) -> (1,9,[8,10]), that is: "he" -> "Albert Abuda"
+	(9,35,[35,36]) -> (1,9,[8,10]), that is: "his" -> "Albert Abuda"
+	(19,24,[24,26]) -> (1,9,[8,10]), that is: "Abuda 's" -> "Albert Abuda"
+	(21,33,[33,34]) -> (1,9,[8,10]), that is: "Abuda" -> "Albert Abuda"
+	(44,1,[1,7]) -> (1,9,[8,10]), that is: "Abuda , appearing thin and weary" -> "Albert Abuda"
+	(44,15,[15,16]) -> (1,9,[8,10]), that is: "his" -> "Albert Abuda"
+
+Coreference set:
+	(9,24,[24,25]) -> (1,1,[1,2]), that is: "Nzara" -> "Nzara"
+
+Coreference set:
+	(16,1,[1,2]) -> (14,14,[14,15]), that is: "Its" -> "its"
+
+Coreference set:
+	(33,14,[14,15]) -> (33,11,[10,12]), that is: "its" -> "the aid"
+	(34,28,[28,29]) -> (33,11,[10,12]), that is: "its" -> "the aid"
+
+Coreference set:
+	(8,12,[12,13]) -> (8,3,[3,4]), that is: "me" -> "I"
+	(9,6,[6,7]) -> (8,3,[3,4]), that is: "my" -> "I"
+
+Coreference set:
+	(9,27,[26,28]) -> (26,4,[3,6]), that is: "Southern Sudan" -> "Southern Sudan 's"
+	(34,7,[6,9]) -> (26,4,[3,6]), that is: "Southern Sudan 's" -> "Southern Sudan 's"
+
+Coreference set:
+	(16,2,[1,6]) -> (18,20,[18,21]), that is: "Its bands of bush fighters" -> "Kony 's men"
+	(17,1,[1,2]) -> (18,20,[18,21]), that is: "They" -> "Kony 's men"
+
+Extracted quotes:
+Albert  Abuda:	"Since  I  arrived  here ,  life  has  become  miserable  to  me.  As  you  can  see ,  my  body  keeps  shrinking  because  there  is  no  proper  food ,"	[index=0, charOffsetBegin=800]
+Kony:	"Operation  Lightning  Thunder."	[index=1, charOffsetBegin=1893]
+his:	"The  American  government  gave  Obama  six  months  to  fight  and  root  those  people  out  of  the  areas  they  are  operating ,"	[index=2, charOffsetBegin=4275]
+he:	"I  think  the  six  months  are  about  to  expire.  We  do  not  know  how ,  [but]  the  Americans  should  have  come  in."	[index=3, charOffsetBegin=4523]
+he:	"Up  to  now  the  international  community  has  left  us  alone  to  fight  this  war  imposed  on  us ,"	[index=4, charOffsetBegin=4652]
+he:	"Apart  from  money ,  I  do  not  know  what  the  international  community  can  do ,"	[index=5, charOffsetBegin=4911]
+Unknown:	"The  LRA  is  a  very  weak  guerrilla  movement ,"	[index=6, charOffsetBegin=5481]
+Unknown:	"They  operate  in  small  groups  of  three ,  and  when  you  try  to  confront  them  they  do  not  stand  in  front  of  you."	[index=7, charOffsetBegin=5602]
+he:	"They  behave  like  rats.  A  rat  comes  out  of  a  hole ,  it  comes  and  picks  what  it  wants ,"	[index=8, charOffsetBegin=5735]
+he:	"It  is  difficult  for  you  to  trace  it  back  to  the  hole."	[index=9, charOffsetBegin=5852]
